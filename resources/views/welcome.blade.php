@@ -46,6 +46,8 @@
 
   gtag('config', 'G-MTQVWV9XM9');
 </script>
+<script async data-id="101478826" src="//static.getclicky.com/js"></script>
+
 </head>
 
 <body>
