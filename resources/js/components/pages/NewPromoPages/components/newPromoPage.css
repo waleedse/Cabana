@@ -189,6 +189,9 @@
         .social_bg2{
             height: 650px !important;
         }
+        .marginTopHundred{
+            margin-top: 100px !important;
+        }
 }
 .acard_img{
     /* width: 140px; */
