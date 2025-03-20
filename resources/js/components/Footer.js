@@ -72,7 +72,7 @@ class Footer extends Component {
 
                         </a>
 
-                        <a href="/privacy-policy">
+                        <a href="/files/AM_Privacy_Policy.pdf">
                             <p className="footerLinkText"> Privacy Policy</p>
 
                         </a>
@@ -89,10 +89,10 @@ class Footer extends Component {
                         <a href="/terms-and-condition">
                             <p className="footerLinkText"> Terms and Conditions</p>
                         </a>
-                        <a href="/pdf/CCL_Term_and_Conditions.pdf" target="_blank"  >
+                        <a href="/files/AM_Client_Agreement.pdf" target="_blank"  >
                             <p className="footerLinkText"> Client Agreement</p>
                         </a>
-                        <a href="/files/IB_Agreement.pdf" target="_blank"  >
+                        <a href="/files/AM_IB_Agreement.pdf" target="_blank"  >
                             <p className="footerLinkText"> IB Agreement</p>
                         </a>
                     </div>
