@@ -34,7 +34,7 @@ class Index extends Component {
                 '/thirtyfive-percent-bonus', '/dubai-luxury-promotion-india', '/thailand-welcome-bonus-promotion',
                 '/additional-usdt-deposit-promotion', '/umrah-package-promotion', '/dubai-luxury-promotion', '/autochartist',
                 '/financial-fitness', '/twenty-five-thousand-bonus-promotion', '/signup-bonus-promotion',
-                '/prize-lot-promotion'
+                '/prize-lot-promotion', '/ib-reward-promotion', '/unlimited-cashback-promotion'
             ]
         }
     }

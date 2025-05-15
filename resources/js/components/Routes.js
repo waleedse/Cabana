@@ -79,6 +79,8 @@ import SeminarFinantialFitness from './pages/NewPromoPages/seminar';
 import TwentyFiveThousandBonusPromotion from './pages/NewPromoPages/TwentyFiveThousandBonusPromotion';
 import SignUpBonusPromotion from './pages/NewPromoPages/SignUpBonusPromotion';
 import PrizeLotPromotion from './pages/NewPromoPages/prizeLotPromotion';
+import IbRewardPromotion from './pages/NewPromoPages/ibRewards';
+import UnlimitedCashbackPromotion from './pages/NewPromoPages/unlimitedCashbackPromotion';
 
 class Routes extends Component {
 
@@ -170,6 +172,8 @@ class Routes extends Component {
                 <Route path="/thailand-welcome-bonus-promotion" component={ThailandPromotion} />
                 <Route path="/additional-usdt-deposit-promotion" component={AdditionalUSDTPromotion} />
                 <Route path="/prize-lot-promotion" component={PrizeLotPromotion} />
+                <Route path="/ib-reward-promotion" component={IbRewardPromotion} />
+                <Route path="/unlimited-cashback-promotion" component={UnlimitedCashbackPromotion} />
 
 
                 <Route
