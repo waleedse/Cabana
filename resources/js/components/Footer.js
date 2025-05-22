@@ -104,9 +104,9 @@ class Footer extends Component {
                             <p className="footerLinkText"> Our Location</p>
 
                         </a>
-                        <div className="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="67b7c875c713494839509c3f" data-style-height="52px" data-style-width="100%">
+                        {/* <div className="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="67b7c875c713494839509c3f" data-style-height="52px" data-style-width="100%">
                             <a href="https://www.trustpilot.com/review/aurummarkets.com" target="_blank" rel="noopener">Trustpilot</a>
-                        </div>
+                        </div> */}
                         {/* <p className="footerLinkText"> Contact Us</p> */}
                     </div>
 
