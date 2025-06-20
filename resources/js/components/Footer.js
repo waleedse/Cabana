@@ -131,6 +131,12 @@ class Footer extends Component {
                         Aurum Market services are currently not available in Russia or to individuals residing in Russia.
                     </p>
 
+                    {this.props.country === 'South Africa' && (
+                        <p className="footerText footerText_justify">
+                            Aurum Global Markets (PTY) Ltd is authorized by the Financial Sector Conduct Authority (FSCA) in South Africa as a Financial Service Provider (FSP number 44692). Aurum Global Markets (PTY) Ltd operates under www.aurummarkets.com.
+                        </p>
+                    )}
+
                 </div>
                 <div className="row footerRightsRow">
                     <h5 className="footerRightsText">
