@@ -133,7 +133,11 @@ class Footer extends Component {
 
                     {this.props.country === 'South Africa' && (
                         <p className="footerText footerText_justify">
+                            Aurum Markets Ltd is incorporated in the Republic of Mauritius with company registration number 195270 GBC. The company is licensed and regulated by the Financial Services Commission (FSC) of Mauritius to offer financial services.
+
                             Aurum Global Markets (PTY) Ltd is authorized by the Financial Sector Conduct Authority (FSCA) in South Africa as a Financial Service Provider (FSP number 44692). Aurum Global Markets (PTY) Ltd operates under www.aurummarkets.com.
+
+                            Aurum Markets does not provide services to the  residents of the EU Region, USA, Canada, Belgium,Russia, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
                         </p>
                     )}
 
