@@ -81,6 +81,7 @@ import SignUpBonusPromotion from './pages/NewPromoPages/SignUpBonusPromotion';
 import PrizeLotPromotion from './pages/NewPromoPages/prizeLotPromotion';
 import IbRewardPromotion from './pages/NewPromoPages/ibRewards';
 import UnlimitedCashbackPromotion from './pages/NewPromoPages/unlimitedCashbackPromotion';
+import FortyPercentBonus from './pages/NewPromoPages/FortyPercentBonus';
 
 class Routes extends Component {
 
@@ -97,6 +98,7 @@ class Routes extends Component {
                 <Route path="/account-type-malaysia" component={AccountTypesMalaysia}></Route>
                 <Route path="/account-type-pakistan" component={AccountTypesPakistan}></Route>
                 <Route path="/account-type-indonesia" component={AccountTypesIndonesia}></Route>
+                <Route path="/forty-percent-bonus" component={FortyPercentBonus}></Route>
 
                 <Route path="/affiliate-program" component={Affiliyate}></Route>
                 <Route
