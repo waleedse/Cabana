@@ -22,7 +22,8 @@
     <meta property="og:site_name" content="Aurum Markets">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="thumbnail" content="/assets/images/logo.png" />
-    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
     <title>Aurum Markets | Forex Trading with True ECN Forex Broker</title>
     <!-- Font Awesome -->
     <!-- Fonts -->
