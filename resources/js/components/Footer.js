@@ -21,9 +21,10 @@ class Footer extends Component {
                             <h3 className="footerTitle">Registered Office</h3>
                             <p className="footerText">
                                 Aurum Markets Limited<br />
-                                Office 212, Block A, The Junction<br />
-                                Business Hub, Calebasses Branch  <br />
-                                Road, Calebasses, 20201, Mauritius
+                                Grounf Floor, The Sotheby Building,<br />
+                                Rodney Village, Rodney Bay,<br />
+                                Gros-Islet, Saint Lucia<br />
+
 
 
                                 {/*<br /><br />Aurum Markets Markets Limited<br />
@@ -115,10 +116,9 @@ class Footer extends Component {
 
                     <p className="footerText footerText_justify">
                         <span className="textBold">Legal: </span>
-                        Aurum Markets Limited is incorporated in Mauritius as an International Broker Company with the registration number 195270 GBC. The objects of the Company are all commercial, financial, lending, borrowing, trading, service activities and the participation in other enterprises as well as href provide brokerage, training and managed account services in currencies, commodities, indexes, CFD's and leveraged financial instruments. Risk Warning: Trading Forex and CFDs involves significant risk and can result in the loss of your invested capital. You should not invest more than you can afford to lose and should ensure that you fully understand the risks involved. Trading leveraged products may not be suitable for all investors. Before trading, please take into consideration your level of experience, investment objectives and seek independent financial advice if necessary. It is the responsibility of the Client href ascertain whether he/she is permitted href use the services of the Aurum Markets based on the legal requirements in his/her country of residence. Please read Aurum Markets™️ full Risk Disclosure. Regional Restrictions: Aurum Markets does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
+                        Aurum Markets Limited is incorporated in Saint Lucia as an International Broker Company with the registration number 2024-00298 having its Registered Address as Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia. The objects of the Company are all commercial, financial, lending, borrowing, trading, service activities and the participation in other enterprises as well as href provide brokerage, training and managed account services in currencies, commodities, indexes, CFD's and leveraged financial instruments. Risk Warning: Trading Forex and CFDs involves significant risk and can result in the loss of your invested capital. You should not invest more than you can afford to lose and should ensure that you fully understand the risks involved. Trading leveraged products may not be suitable for all investors. Before trading, please take into consideration your level of experience, investment objectives and seek independent financial advice if necessary. It is the responsibility of the Client href ascertain whether he/she is permitted href use the services of the Aurum Markets based on the legal requirements in his/her country of residence. Please read Aurum Markets™️ full Risk Disclosure. Regional Restrictions: Aurum Markets does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
                     </p>
-                    <p className="footerText footerText_justify">
-                        Aurum Markets Limited is incorporated in Saint Lucia as an International Broker Company with the registration number 2024-00298 having its Registered Address as Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia                    </p>
+
 
                     <p className="footerText footerText_justify">
                         <span className="textBold"> Risk Warning: Forex margin trading is risky, can involve money loss due to leverage, and may not be suitable for all investors. Be sure that you understand how derivative products work and fully understand possible risks. Set investment goals based on your trading experience and seek independent advice if you need it. View full Risk Disclosure. Regional Restrictions: Aurum Markets does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
@@ -127,7 +127,6 @@ class Footer extends Component {
 
 
                     <p className="footerText footerText_justify">
-                        Aurum Markets Ltd incorporate in Mauritius with company registration number 195270 GBC. <br />
                         Aurum Market services are currently not available in Russia or to individuals residing in Russia.
                     </p>
 
