@@ -24,9 +24,9 @@ const OurLocationPage = (props) => {
             Beachmont, P.O.Box 1510, Kingstown St.<br/>
             Vincent and the Grenadines */}
 
-                        Office 212, Block A, The Junction<br />
-                        Business Hub, Calebasses Branch  <br />
-                        Road, Calebasses, 20201, Mauritius
+                        Ground Floor, The Sotheby Building,<br />
+                        Rodney Village, Rodney Bay,<br />
+                        Gros-Islet, Saint Lucia<br />
                         <br />
 
                     </div>

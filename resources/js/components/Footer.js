@@ -21,7 +21,7 @@ class Footer extends Component {
                             <h3 className="footerTitle">Registered Office</h3>
                             <p className="footerText">
                                 Aurum Markets Limited<br />
-                                Grounf Floor, The Sotheby Building,<br />
+                                Ground Floor, The Sotheby Building,<br />
                                 Rodney Village, Rodney Bay,<br />
                                 Gros-Islet, Saint Lucia<br />
 
@@ -129,7 +129,7 @@ class Footer extends Component {
 
                     <p className="footerText footerText_justify">
                         <span className="textBold">Regional Restrictions:  </span>
-                        Regional Restrictions: Aurum Markets does not provide services to residents of the EU Region, USA, Canada, Belgium, India, Russia, and FATF Blacklisted Countries. Find out more in the Account Opening section of our FAQs.                    </p>
+                        Aurum Markets does not provide services to residents of the EU Region, USA, Canada, Belgium, India, Russia, and FATF Blacklisted Countries. Find out more in the Account Opening section of our FAQs.                    </p>
 
 
                     {this.props.country === 'South Africa' && (
