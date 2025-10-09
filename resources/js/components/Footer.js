@@ -123,14 +123,14 @@ class Footer extends Component {
                     <p className="footerText footerText_justify ">
                         <span className="textBold"> Risk Warning:
                         </span>
-                        Risk Warning: Trading Forex and CFDs involves a high level of risk and may result in the loss of all your invested capital. You should not invest more than you can afford to lose and should ensure that you fully understand the risks involved. Leveraged products may not be suitable for all investors. Before trading, please carefully consider your experience level, investment objectives, and seek independent financial advice if necessary. It is the responsibility of the Client to ascertain whether they are permitted to use the services of Aurum Markets based on the legal requirements in their country of residence. Please read Aurum Markets™️ full Risk Disclosure for more information.
+                        Trading Forex and CFDs involves a high level of risk and may result in the loss of all your invested capital. You should not invest more than you can afford to lose and should ensure that you fully understand the risks involved. Leveraged products may not be suitable for all investors. Before trading, please carefully consider your experience level, investment objectives, and seek independent financial advice if necessary. It is the responsibility of the Client to ascertain whether they are permitted to use the services of Aurum Markets based on the legal requirements in their country of residence. Please read Aurum Markets™️ full Risk Disclosure for more information.
 
                     </p>
-
 
                     <p className="footerText footerText_justify">
-                        Aurum Market services are currently not available in Russia or to individuals residing in Russia.
-                    </p>
+                        <span className="textBold">Regional Restrictions:  </span>
+                        Regional Restrictions: Aurum Markets does not provide services to residents of the EU Region, USA, Canada, Belgium, India, Russia, and FATF Blacklisted Countries. Find out more in the Account Opening section of our FAQs.                    </p>
+
 
                     {this.props.country === 'South Africa' && (
                         <p className="footerText footerText_justify">
