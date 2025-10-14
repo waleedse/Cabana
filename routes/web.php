@@ -32,8 +32,8 @@ Route::get('/adminpanel/edit-slider/{id}', function () {return view('welcome');}
 Route::get('/adminpanel/manage-sliders', function () {return view('welcome');});
 Route::get('/', function () {
     return view('home');
-});
-Route::view('/{path?}', 'welcome');
+})->middleware('region');
+Route::view('/{path?}', 'welcome')->middleware('region');
 Route::get('{reactRoutes}', function () {
     return view('welcome');
-});
+})->middleware('region');
