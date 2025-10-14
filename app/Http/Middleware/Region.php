@@ -12,7 +12,7 @@ class Region
         $position = $this->get_client_location($request);
 
         if (isset($position['country'])) {
-            $blockedCountries = ['India', 'Pakistan', 'Bangladesh', 'Nigeria', 'South Africa'];
+            $blockedCountries = [];
             $maintenanceCountries = ['Mauritius'];
 
             if (in_array($position['country'], $blockedCountries)) {
