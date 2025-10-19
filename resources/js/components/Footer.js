@@ -27,10 +27,10 @@ class Footer extends Component {
 
 
 
-                                {/*<br /><br />Aurum Markets Markets Limited<br />
+                                <br />
                                 Office no. 212, Ground floor ,Block A,
                                 <br />The junction Business Hub, <br />
-        Calebasses Branch Rd, Calebasses, Mauritius */}
+                                Calebasses Branch Rd, Calebasses, Mauritius
                             </p>
                             <div className="footerSocialBox">
                                 <div className="footerSocialCircle">
@@ -116,6 +116,7 @@ class Footer extends Component {
 
                     <p className="footerText footerText_justify">
                         <span className="textBold">Legal: </span>
+                        Aurum Markets Limited is  incorporated in Mauritius as an International Broker Company with the registration number 195270GBC.
                         Aurum Markets Limited is incorporated in Saint Lucia as an International Broker Company with the registration number 2024-00298 having its Registered Address as Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia. The objects of the Company are all commercial, financial, lending, borrowing, trading, service activities and the participation in other enterprises as well as href provide brokerage, training and managed account services in currencies, commodities, indexes, CFD's and leveraged financial instruments.
                     </p>
 

@@ -14,7 +14,7 @@ const OurLocationPage = (props) => {
 
             <div style={{ position: "relative" }}>
                 <div className='d-none d-md-inline'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d387.52828144024085!2d-60.95584915969501!3d14.070841901692043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sThe%20Sotheby%20Building%20saint%20lucia!5e0!3m2!1sen!2s!4v1760034562589!5m2!1sen!2s" width="100%" height="450" frameBorder="0" style={{ border: '0' }} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe></div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d387.52828144024085!2d-60.95584915969501!3d14.070841901692043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sThe%20Sotheby%20Building%20saint%20lucia!5e0!3m2!1sen!2s!4v1760034562589!5m2!1sen!2s" width="100%" height="500" frameBorder="0" style={{ border: '0' }} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe></div>
 
 
                 <div className="mapCard">
@@ -29,11 +29,16 @@ const OurLocationPage = (props) => {
                         Gros-Islet, Saint Lucia<br />
                         <br />
 
+
+                        Office no. 212, Ground floor ,Block A,
+                        <br />The junction Business Hub, <br />
+                        Calebasses Branch Rd, Calebasses, Mauritius
+
                     </div>
 
                     <div className="title">Customer Support</div>
                     <div className="text">For any enquiries email us on:</div>
-                    {/* <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#fff" /> 230 245 8606</div> */}
+                    <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#fff" /> 230 245 8606</div>
                     <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#fff" /> support@aurummarkets.com</div>
                 </div>
             </div>
