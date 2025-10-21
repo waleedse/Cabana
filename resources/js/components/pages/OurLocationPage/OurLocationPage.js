@@ -24,10 +24,10 @@ const OurLocationPage = (props) => {
             Beachmont, P.O.Box 1510, Kingstown St.<br/>
             Vincent and the Grenadines */}
 
-                        Ground Floor, The Sotheby Building,<br />
+                        {/* Ground Floor, The Sotheby Building,<br />
                         Rodney Village, Rodney Bay,<br />
                         Gros-Islet, Saint Lucia<br />
-                        <br />
+                        <br /> */}
 
 
                         Office no. 212, Ground floor ,Block A,
