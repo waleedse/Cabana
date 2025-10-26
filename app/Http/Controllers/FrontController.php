@@ -356,13 +356,13 @@ class FrontController extends Controller
             }
             $response = ['status' => 200 , 'promotion' => $promotions , 'country' => $position['country'] , 'continent' =>
             // 'Africa'
-            $position['continent']
+            $position['continent'], 'city' => $position['city'], 'state' => $position['regionName']
         ];
             return $response;
 
         }else{
             $promotions = Promotion::where('type',1)->where('status',1)->get();
-            $response = ['status' => 200 , 'promotion' => $promotions , 'country' => $position['country']];
+            $response = ['status' => 200 , 'promotion' => $promotions , 'country' => $position['country'], 'city' => $position['city']];
             return $response;
         }
 

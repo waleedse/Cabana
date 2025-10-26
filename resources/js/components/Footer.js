@@ -2,11 +2,21 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { a } from "react-router-dom";
 
+const notAllowedCities = ['Hyderabad',
+    'Chennai'];
+
+const notAllowedStates = ['Tamil Nadu',
+    'Andhra Pradesh',
+    'Telegana',
+    'Maharashtra',
+    'Karnataka'
+];
+
 class Footer extends Component {
     constructor(props) {
         super(props);
-        console.log('props', this.props)
     }
+
     render() {
         return (
             <div className="container-fluid">
@@ -113,27 +123,30 @@ class Footer extends Component {
                 </div>
                 <div className="row footerSecondRow">
 
-                    <p className="footerText footerText_justify">
-                        <strong >Legal: </strong> Aurum Markets Limited is incorporated in Mauritius as an
-                        International Broker Company with registration number 195270GBC, having its registered
-                        office at Office No. 212, Ground Floor, Block A,
-                        The Junction Business Hub, Calebasses Branch Road, Calebasses, Mauritius.
-                        The objects of the Company include all commercial, financial, lending, borrowing, trading, and service activities, as well as participation in other enterprises. The Company provides brokerage, training, and managed account services in currencies, commodities, indices, CFDs, and other leveraged financial instruments.
-                    </p>
+                    {this.props.city && !notAllowedCities.includes(this.props.city) && !notAllowedStates.includes(this.props.state) && (
+
+                        <>
+                            <p className="footerText footerText_justify">
+                                <strong >Legal: </strong> Aurum Markets Limited is incorporated in Mauritius as an
+                                International Broker Company with registration number 195270GBC, having its registered
+                                office at Office No. 212, Ground Floor, Block A,
+                                The Junction Business Hub, Calebasses Branch Road, Calebasses, Mauritius.
+                                The objects of the Company include all commercial, financial, lending, borrowing, trading, and service activities, as well as participation in other enterprises. The Company provides brokerage, training, and managed account services in currencies, commodities, indices, CFDs, and other leveraged financial instruments.
+                            </p>
 
 
-                    <p className="footerText footerText_justify ">
-                        <span className="textBold"> Risk Warning:
-                        </span>
-                        Trading Forex and CFDs involves a high level of risk and may result in the loss of all your invested capital. You should not invest more than you can afford to lose and should ensure that you fully understand the risks involved. Leveraged products may not be suitable for all investors. Before trading, please carefully consider your experience level, investment objectives, and seek independent financial advice if necessary. It is the responsibility of the Client to ascertain whether they are permitted to use the services of Aurum Markets based on the legal requirements in their country of residence. Please read Aurum Markets™️ full Risk Disclosure for more information.
+                            <p className="footerText footerText_justify ">
+                                <span className="textBold"> Risk Warning:
+                                </span>
+                                Trading Forex and CFDs involves a high level of risk and may result in the loss of all your invested capital. You should not invest more than you can afford to lose and should ensure that you fully understand the risks involved. Leveraged products may not be suitable for all investors. Before trading, please carefully consider your experience level, investment objectives, and seek independent financial advice if necessary. It is the responsibility of the Client to ascertain whether they are permitted to use the services of Aurum Markets based on the legal requirements in their country of residence. Please read Aurum Markets™️ full Risk Disclosure for more information.
 
-                    </p>
+                            </p>
 
-                    <p className="footerText footerText_justify">
-                        <span className="textBold">Regional Restrictions:  </span>
-                        Aurum Markets does not provide services to residents of the EU Region, USA, Canada, Belgium, India, Russia, and FATF Blacklisted Countries. Find out more in the Account Opening section of our FAQs.                    </p>
-
-
+                            <p className="footerText footerText_justify">
+                                <span className="textBold">Regional Restrictions:  </span>
+                                Aurum Markets does not provide services to residents of the EU Region, USA, Canada, Belgium, India, Russia, and FATF Blacklisted Countries. Find out more in the Account Opening section of our FAQs.                    </p>
+                        </>
+                    )}
                     {this.props.country === 'South Africa' && (
                         <p className="footerText footerText_justify">
                             Aurum Markets Ltd is incorporated in the Republic of Mauritius with company registration number 195270 GBC. The company is licensed and regulated by the Financial Services Commission (FSC) of Mauritius to offer financial services.
@@ -150,14 +163,15 @@ class Footer extends Component {
                         Copyright {(new Date().getFullYear())} {"\u00A9"} Aurum Markets All Right Reserved
                     </h5>
                 </div>
-            </div>
+            </div >
         );
     }
 }
 const mapStateToProps = (state) => {
     return {
         country: state.country,
-        continent: state.continent
+        continent: state.continent,
+        city: state.city
     }
 }
 
