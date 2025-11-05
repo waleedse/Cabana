@@ -134,6 +134,10 @@ class Footer extends Component {
                                 The objects of the Company include all commercial, financial, lending, borrowing, trading, and service activities, as well as participation in other enterprises. The Company provides brokerage, training, and managed account services in currencies, commodities, indices, CFDs, and other leveraged financial instruments.
                             </p>
 
+                            <p className="footerText footerText_justify">
+                                Aurum Markets Limited is also incorporated in Saint Lucia as an International Broker Company with registration number 2024-00298, having its registered address at Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia.
+                            </p>
+
 
                             <p className="footerText footerText_justify ">
                                 <span className="textBold"> Risk Warning:
