@@ -5,7 +5,19 @@ import { connect } from 'react-redux';
 import HeroSection from '../AboutUsPage/components/HeroSection';
 import "./components/ourLocation.css"
 import ContactForm from './contactForm';
+
+const notAllowedCities = ['Hyderabad',
+    'Chennai'];
+
+const notAllowedStates = ['Tamil Nadu',
+    'Andhra Pradesh',
+    'Telegana',
+    'Maharashtra',
+    'Karnataka'
+];
 const OurLocationPage = (props) => {
+
+
     return (
         <div className="ourLocation">
             <HeroSection title="OUR LOCATION"
@@ -18,27 +30,41 @@ const OurLocationPage = (props) => {
 
 
                 <div className="mapCard">
-                    <div className="title">Head Office</div>
-                    <div className="text">
-                        {/* Suit 305, Griffith Corporate Centre<br/>
+                    {
+                        props.city && !notAllowedCities.includes(props.city) && !notAllowedStates.includes(props.state) && (
+                            <>
+
+                                <div className="title">Head Office</div>
+                                <div className="text">
+                                    {/* Suit 305, Griffith Corporate Centre<br/>
             Beachmont, P.O.Box 1510, Kingstown St.<br/>
             Vincent and the Grenadines */}
 
-                        {/* Ground Floor, The Sotheby Building,<br />
+                                    {/* Ground Floor, The Sotheby Building,<br />
                         Rodney Village, Rodney Bay,<br />
                         Gros-Islet, Saint Lucia<br />
                         <br /> */}
 
 
-                        Office no. 212, Ground floor ,Block A,
-                        <br />The junction Business Hub, <br />
-                        Calebasses Branch Rd, Calebasses, Mauritius
+                                    Office no. 212, Ground floor ,Block A,
+                                    <br />The junction Business Hub, <br />
+                                    Calebasses Branch Rd, Calebasses, Mauritius
 
-                    </div>
+                                </div>
+
+                            </>
+                        )
+                    }
 
                     <div className="title">Customer Support</div>
                     <div className="text">For any enquiries email us on:</div>
-                    <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#fff" /> 230 245 8606</div>
+                    {
+                        props.city && !notAllowedCities.includes(props.city) && !notAllowedStates.includes(props.state) && (
+                            <>
+                                <div className="text mb-1"><FontAwesomeIcon icon={faPhone} color="#fff" /> 230 245 8606</div>
+                            </>
+                        )
+                    }
                     <div className="text"><FontAwesomeIcon icon={faEnvelope} color="#fff" /> support@aurummarkets.com</div>
                 </div>
             </div>
@@ -92,7 +118,9 @@ const OurLocationPage = (props) => {
 const mapStateToProps = (state) => {
     return {
         promotions: state.promotion,
-        country: state.country
+        country: state.country,
+        continent: state.continent,
+        city: state.city
     }
 }
 

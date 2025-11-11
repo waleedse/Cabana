@@ -28,19 +28,26 @@ class Footer extends Component {
                                 src="/assets/images/logotrans.png"
                                 alt="image"
                             ></img>
-                            <h3 className="footerTitle">Registered Office</h3>
-                            <p className="footerText">
-                                Aurum Markets Limited<br />
-                                {/* Ground Floor, The Sotheby Building,<br />
+                            {
+                                this.props.city && !notAllowedCities.includes(this.props.city) && !notAllowedStates.includes(this.props.state) && (
+                                    <>
+
+                                        <h3 className="footerTitle">Registered Office</h3>
+                                        <p className="footerText">
+                                            Aurum Markets Limited<br />
+                                            {/* Ground Floor, The Sotheby Building,<br />
                                 Rodney Village, Rodney Bay,<br />
                                 Gros-Islet, Saint Lucia<br /> */}
 
 
 
-                                Office no. 212, Ground floor ,Block A,
-                                <br />The junction Business Hub, <br />
-                                Calebasses Branch Rd, Calebasses, Mauritius
-                            </p>
+                                            Office no. 212, Ground floor ,Block A,
+                                            <br />The junction Business Hub, <br />
+                                            Calebasses Branch Rd, Calebasses, Mauritius
+                                        </p>
+                                    </>
+                                )
+                            }
                             <div className="footerSocialBox">
                                 <div className="footerSocialCircle">
                                     <a href="https://www.facebook.com/AurumMarketsGlobal/">
