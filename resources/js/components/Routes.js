@@ -83,6 +83,10 @@ import IbRewardPromotion from './pages/NewPromoPages/ibRewards';
 import UnlimitedCashbackPromotion from './pages/NewPromoPages/unlimitedCashbackPromotion';
 import FortyPercentBonus from './pages/NewPromoPages/FortyPercentBonus';
 import CentsAccountPromotion from './pages/NewPromoPages/CentsAccountPromotion';
+import CashBackReward from './pages/NewPromoPages/CashBackReward';
+import IBRewardPromotion from './pages/NewPromoPages/IBRewardPromotion';
+import GlobalIBPromotion2025 from './pages/NewPromoPages/GlobalIBPromotion2025';
+import CryptoDepositBonus2025 from './pages/NewPromoPages/CryptoDepositBonus2025';
 
 class Routes extends Component {
 
@@ -177,6 +181,10 @@ class Routes extends Component {
                 <Route path="/prize-lot-promotion" component={PrizeLotPromotion} />
                 <Route path="/ib-reward-promotion" component={IbRewardPromotion} />
                 <Route path="/unlimited-cashback-promotion" component={UnlimitedCashbackPromotion} />
+                <Route path="/cashback-reward-promotion" component={CashBackReward} />
+                <Route path="/aurum-ib-reward-promotion" component={IBRewardPromotion} />
+                <Route path="/global-ib-promotion-2025" component={GlobalIBPromotion2025} />
+                <Route path="/crypto-deposit-bonus-2025" component={CryptoDepositBonus2025} />
 
 
                 <Route
