@@ -87,6 +87,7 @@ import CashBackReward from './pages/NewPromoPages/CashBackReward';
 import IBRewardPromotion from './pages/NewPromoPages/IBRewardPromotion';
 import GlobalIBPromotion2025 from './pages/NewPromoPages/GlobalIBPromotion2025';
 import CryptoDepositBonus2025 from './pages/NewPromoPages/CryptoDepositBonus2025';
+import Leverage1000Promotion from './pages/NewPromoPages/Leverage1000Promotion';
 
 class Routes extends Component {
 
@@ -185,6 +186,7 @@ class Routes extends Component {
                 <Route path="/aurum-ib-reward-promotion" component={IBRewardPromotion} />
                 <Route path="/global-ib-promotion-2025" component={GlobalIBPromotion2025} />
                 <Route path="/crypto-deposit-bonus-2025" component={CryptoDepositBonus2025} />
+                <Route path="/trade-bigger-with-less-capital" component={Leverage1000Promotion} />
 
 
                 <Route
