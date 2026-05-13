@@ -391,7 +391,7 @@ class HeaderMobile extends Component {
                                                 return;
                                             }}
                                         >
-                                            <a href="https://social.cabanacapitals.com/portal/login">
+                                            <a href="https://social.aurummarkets.com/portal/login">
                                                 <div className="sideBarItem">Social Login</div>
                                             </a>
                                             <a href="/social-trading">
