@@ -61,6 +61,59 @@ const PrivacyPolicy = () => {
                     <div className='qTitle text-center'>8. Queries</div>
                     <div className="basicText">If you have any questions which have not been covered in this Privacy Policy, or any further concerns regarding the use of Personal Data, please do not hesitate to contact us through email at support@aurummarkets.com or telephone at +230 245 8606.</div>
 
+                    <div className='qTitle text-center'>Mobile App Privacy Compliance</div>
+                    <div className="basicText">
+                        This Privacy Policy also applies to the AURUM Markets Android and iOS mobile applications available through Google Play Store and Apple App Store.
+                        <br /><br />
+                        By downloading, installing, or using the AURUM Markets mobile application, users agree to the collection, processing, storage, and use of information in accordance with this Privacy Policy.
+                    </div>
+
+                    <div className='qTitle text-center'>App Permissions</div>
+                    <div className="basicText">
+                        The AURUM Markets mobile application may request access to certain device permissions, including:
+                        <br /><br />
+                        Internet Access
+                        <br />Camera Access
+                        <br />Storage/Media Access
+                        <br />Push Notifications
+                        <br />Biometric Authentication
+                        <br />Optional Location Access
+                        <br /><br />
+                        These permissions are used solely to provide secure account access, identity verification (KYC), trading functionality, fraud prevention, customer support, and improved user experience.
+                    </div>
+
+                    <div className='qTitle text-center'>Google Play &amp; Apple App Store Compliance</div>
+                    <div className="basicText">
+                        AURUM Markets Limited complies with applicable Google Play Developer Policies and Apple App Store privacy requirements regarding:
+                        <br /><br />
+                        User Data Collection
+                        <br />Data Usage Transparency
+                        <br />Data Security
+                        <br />Permission Usage
+                        <br />User Consent
+                        <br />Account Protection
+                        <br />Data Protection
+                        <br /><br />
+                        Sensitive personal and financial information is protected using industry-standard security technologies, encryption protocols, and secure server infrastructure.
+                    </div>
+
+                    <div className='qTitle text-center'>Third-Party Services</div>
+                    <div className="basicText">The App may use trusted third-party services such as analytics providers, cloud hosting services, payment processors, and notification systems to improve app functionality and security.</div>
+
+                    <div className='qTitle text-center'>User Rights</div>
+                    <div className="basicText">
+                        Users may request account deletion or data removal by contacting:
+                        <br /><br />
+                        Email: support@aurummarkets.com
+                    </div>
+
+                    <div className='qTitle text-center'>Official Privacy Policy PDF</div>
+                    <div className="basicText">
+                        Users can also access the official Privacy Policy document here:
+                        <br /><br />
+                        <a href="https://aurummarkets.com/files/AM_Privacy_Policy.pdf" target="_blank" rel="noopener noreferrer">AURUM Markets Privacy Policy PDF</a>
+                    </div>
+
 
 
                 </div>
