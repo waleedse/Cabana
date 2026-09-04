@@ -45,7 +45,7 @@ const WelcomeBonus = () => {
                 <strong>2.</strong>	Make a deposit not less than $50 in Live Trading Account (Cent, Standard, Premium only).	</h4>
               <h4 className='text-bold title_loss2'>
                 <strong>3.</strong>	After the deposit send your Live Trading Account Number to
-                promotions@cabanacapitals.com with subject “Request for Welcome Bonus”.	</h4>
+                promotions@aurummarkets.mu with subject “Request for Welcome Bonus”.	</h4>
               <h4 className='text-bold title_loss2'>
                 <strong>4.</strong>	Your Welcome Bonus Account will be created and credited with bonus amount within 24
                 working hours after the request received. 	</h4>

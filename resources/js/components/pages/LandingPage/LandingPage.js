@@ -8,7 +8,6 @@ import TradingPlatforms from "./components/TradingPlatforms";
 import "./components/landingPage.css";
 import AlertModal from "./components/AlertModal";
 import { connect } from "react-redux";
-import ImportantAlert from "./components/ImportantAlert";
 
 class LandingPage extends Component {
     constructor(props) {
@@ -25,7 +24,7 @@ class LandingPage extends Component {
                 {/* <Analytics /> */}
                 <PaymentOptions />
                 {
-                    <ImportantAlert></ImportantAlert>
+                    this.props.country == 'Pakistan' && <AlertModal></AlertModal>
                 }
 
             </>

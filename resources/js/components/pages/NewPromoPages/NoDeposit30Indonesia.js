@@ -35,7 +35,7 @@ const NoDeposit30Indonesia = () => {
                         <h4 className='text-bold title_loss2'>
                             <strong>4.</strong>		$30 No Deposit Bonus will automatically be added to the No Deposit Bonus account within
                             48 hours once the client profile is verified. If you have not received the No Deposit Bonus
-                            within 48 hours, you can email us on promotions@cabanacapitals.com and request for the
+                            within 48 hours, you can email us on promotions@aurummarkets.mu and request for the
                             No Deposit Bonus to be added.
 
                         </h4>
@@ -78,7 +78,7 @@ const NoDeposit30Indonesia = () => {
                             to Live Trading Account (Standard /Premium) once the client has made a deposit in his Live
                             Trading Account (Standard /Premium) of minimum of $50. Once the deposit has been made
                             in the Live Trading account, the client should send an email to
-                            promotions@cabanacapitals.com requesting to transfer the profit from the No Deposit
+                            promotions@aurummarkets.mu requesting to transfer the profit from the No Deposit
                             Bonus Account to Live Trading Account. </h4>
                         <h4 className='text-bold title_loss2'><strong>12.</strong> Profits from the Live Trading Account (Standard/Premium) can be withdrawn after
                             completing 3 qualified standard lots.	</h4>
