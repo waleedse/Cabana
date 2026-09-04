@@ -76,13 +76,13 @@ import DubaiLuxuryPromotionIndia from './pages/NewPromoPages/DubaiLuxuryPromotio
 import UmrahpackagePromotion from './pages/NewPromoPages/UmrahpackagePromotion';
 import Autochartist from './pages/NewPromoPages/Autochatist';
 import SeminarFinantialFitness from './pages/NewPromoPages/seminar';
-import TwentyFiveThousandBonusPromotion from './pages/NewPromoPages/TwentyFiveThousandBonusPromotion';
-import SignUpBonusPromotion from './pages/NewPromoPages/SignUpBonusPromotion';
-import PrizeLotPromotion from './pages/NewPromoPages/prizeLotPromotion';
-import IbRewardPromotion from './pages/NewPromoPages/ibRewards';
-import UnlimitedCashbackPromotion from './pages/NewPromoPages/unlimitedCashbackPromotion';
-import FortyPercentBonus from './pages/NewPromoPages/FortyPercentBonus';
-import CentsAccountPromotion from './pages/NewPromoPages/CentsAccountPromotion';
+// import TwentyFiveThousandBonusPromotion from './pages/NewPromoPages/TwentyFiveThousandBonusPromotion';
+// import SignUpBonusPromotion from './pages/NewPromoPages/SignUpBonusPromotion';
+// import PrizeLotPromotion from './pages/NewPromoPages/prizeLotPromotion';
+// import IbRewardPromotion from './pages/NewPromoPages/ibRewards';
+// import UnlimitedCashbackPromotion from './pages/NewPromoPages/unlimitedCashbackPromotion';
+// import FortyPercentBonus from './pages/NewPromoPages/FortyPercentBonus';
+// import CentsAccountPromotion from './pages/NewPromoPages/CentsAccountPromotion';
 
 class Routes extends Component {
 
@@ -99,7 +99,7 @@ class Routes extends Component {
                 <Route path="/account-type-malaysia" component={AccountTypesMalaysia}></Route>
                 <Route path="/account-type-pakistan" component={AccountTypesPakistan}></Route>
                 <Route path="/account-type-indonesia" component={AccountTypesIndonesia}></Route>
-                <Route path="/forty-percent-bonus" component={FortyPercentBonus}></Route>
+                {/* <Route path="/forty-percent-bonus" component={FortyPercentBonus}></Route> */}
 
                 <Route path="/affiliate-program" component={Affiliyate}></Route>
                 <Route
@@ -142,9 +142,9 @@ class Routes extends Component {
 
                 <Route path="/no-deposit-bonus" component={NoDeposit30}></Route>
                 <Route path="/lucky-draw-promotion" component={luckydrawpromotion}></Route>
-                <Route path="/twenty-five-thousand-bonus-promotion" component={TwentyFiveThousandBonusPromotion}></Route>
-                <Route path="/signup-bonus-promotion" component={SignUpBonusPromotion}></Route>
-                <Route path="/cents-account-promotion" component={CentsAccountPromotion}></Route>
+                {/* <Route path="/twenty-five-thousand-bonus-promotion" component={TwentyFiveThousandBonusPromotion}></Route> */}
+                {/* <Route path="/signup-bonus-promotion" component={SignUpBonusPromotion}></Route> */}
+                {/* <Route path="/cents-account-promotion" component={CentsAccountPromotion}></Route> */}
                 <Route path="/mt4-platform" component={Mt4}></Route>
                 <Route path="/mt5-platform" component={Mt5}></Route>
                 <Route path="/promotion" component={PromotionPage}></Route>
@@ -174,9 +174,9 @@ class Routes extends Component {
                 <Route path="/dubai-luxury-promotion-india" component={DubaiLuxuryPromotionIndia} />
                 <Route path="/thailand-welcome-bonus-promotion" component={ThailandPromotion} />
                 <Route path="/additional-usdt-deposit-promotion" component={AdditionalUSDTPromotion} />
-                <Route path="/prize-lot-promotion" component={PrizeLotPromotion} />
-                <Route path="/ib-reward-promotion" component={IbRewardPromotion} />
-                <Route path="/unlimited-cashback-promotion" component={UnlimitedCashbackPromotion} />
+                {/* <Route path="/prize-lot-promotion" component={PrizeLotPromotion} /> */}
+                {/* <Route path="/ib-reward-promotion" component={IbRewardPromotion} /> */}
+                {/* <Route path="/unlimited-cashback-promotion" component={UnlimitedCashbackPromotion} /> */}
 
 
                 <Route

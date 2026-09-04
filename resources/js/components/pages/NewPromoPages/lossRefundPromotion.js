@@ -21,7 +21,7 @@ const lossRefundPromotion = () => {
                             <h6 className='loss_desc'>
                                 <strong>a.</strong>	To activate “Loss Refund Promotion” Clients need to use USDT deposit method.
                                 <br /> <strong>b.</strong>	“Loss Refund Promotion” allow clients to get a reversal of any one trade closed in negative.
-                                <br /> <strong>c.</strong>	To activate “Loss Refund Promotion”, the clients have to deposit through USDT and send an email to support@cabanacapitals.com to enroll for this offer.
+                                <br /> <strong>c.</strong>	To activate “Loss Refund Promotion”, the clients have to deposit through USDT and send an email to support@aurummarkets.mu to enroll for this offer.
                                 <br /> <strong>d.</strong>	Loss refund is based on the minimum first deposit amount and number of qualified lots traded in the week when client want to redeem his loss refund.
                                 <br /> <strong>e.</strong>	Qualified trades for Loss Refund Promotion will only be considered which are open for at least 2 minutes.
                                 <br /> <strong>f.</strong>	Details of minimum eligible first deposit, its relevant loss refund amount and required Number of Qualified lots are listed in the following table:
