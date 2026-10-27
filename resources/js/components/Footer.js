@@ -8,8 +8,12 @@ const notAllowedCities = ['Hyderabad',
 const notAllowedStates = ['Tamil Nadu',
     'Andhra Pradesh',
     'Telegana',
+    'Telangana',
     'Maharashtra',
-    'Karnataka'
+    'Karnataka',
+    'Madhya Pradesh',
+    'Kerala',
+    'Uttar Pradesh'
 ];
 
 class Footer extends Component {
