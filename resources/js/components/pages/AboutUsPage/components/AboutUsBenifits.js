@@ -15,11 +15,11 @@ export default class AboutUsBenifits extends Component {
           </div>
 
           <div className="col-md-6 col-sm-12">
-          <br/><br/>
+            <br /><br />
             <h4 className="aboutDetailTitle mt-5">
-              Your Benefits With Cabana Capitals
+              Your Benefits With Aurum Markets
             </h4>
-            <br/>
+            <br />
             <p className="aboutDetailText">
               <FontAwesomeIcon
                 icon={faCheckDouble}
@@ -27,7 +27,7 @@ export default class AboutUsBenifits extends Component {
                 color="#eb1597"
                 className="mr-1"
               />
-             Unique Link to get your client registered.
+              Unique Link to get your client registered.
             </p>
             <p className="aboutDetailText">
               <FontAwesomeIcon
@@ -36,7 +36,7 @@ export default class AboutUsBenifits extends Component {
                 color="#eb1597"
                 className="mr-1"
               />
-             Multi-Tier Commission Program.
+              Multi-Tier Commission Program.
             </p>
             <p className="aboutDetailText">
               <FontAwesomeIcon
@@ -45,7 +45,7 @@ export default class AboutUsBenifits extends Component {
                 color="#eb1597"
                 className="mr-1"
               />
-             Progressive Commission Structure.
+              Progressive Commission Structure.
             </p>
             <p className="aboutDetailText">
               <FontAwesomeIcon
@@ -54,7 +54,7 @@ export default class AboutUsBenifits extends Component {
                 color="#eb1597"
                 className="mr-1"
               />
-             Daily Commission Settlement.
+              Daily Commission Settlement.
             </p>
             <p className="aboutDetailText">
               <FontAwesomeIcon
@@ -63,7 +63,7 @@ export default class AboutUsBenifits extends Component {
                 color="#eb1597"
                 className="mr-1"
               />
-             Get more clients with help of our expert Sales Team
+              Get more clients with help of our expert Sales Team
             </p>
             <p className="aboutDetailText">
               <FontAwesomeIcon
@@ -72,7 +72,7 @@ export default class AboutUsBenifits extends Component {
                 color="#eb1597"
                 className="mr-1"
               />
-            Be a part of the highest revenue share programs in the market
+              Be a part of the highest revenue share programs in the market
             </p>
           </div>
         </div>

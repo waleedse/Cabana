@@ -25,7 +25,7 @@ const BoosterBonus = () => {
                     <div className='col-md-3 text-center'>
                         <img style={{ width: '40%' }} src="/assets/images/boosterbonus/RegisterNow.png"></img>
                         <h4 className='text mt-2' style={{ fontSize: '18px' }}>Register with<br />
-                            Cabana Capitals </h4>
+                            Aurum Markets </h4>
                     </div>
                     <div className='col-md-3 text-center'>
                         <img style={{ width: '40%' }} src="/assets/images/boosterbonus/Verify.png"></img>
@@ -79,7 +79,7 @@ const BoosterBonus = () => {
                         </div>
                         <h2 className='col-md-11 text-bold title text-center' style={{ fontSize: '16px' }}>The client has a live Premium
                             <br />Bonus Trading Account with <br />
-                            Cabana Capitals</h2>
+                            Aurum Markets</h2>
                     </div>
                     <div className='col-md-4 row px-0 m-0'>
                         <div className='col-md-1 px-2'>
@@ -107,7 +107,7 @@ const BoosterBonus = () => {
 
 
             <div className='text-center mt-5'>
-                <h1 className='text-bold atitle  text-center' style={{ color: '#9b005f' }}><span className='text-dark'>Why Trade with </span>Cabana Capitals?</h1>
+                <h1 className='text-bold atitle  text-center' style={{ color: '#9b005f' }}><span className='text-dark'>Why Trade with </span>Aurum Markets?</h1>
 
                 <img style={{ width: '100%' }} src='/assets/images/boosterbonus/Footer.jpg'></img>
             </div>
@@ -161,12 +161,12 @@ const BoosterBonus = () => {
                                 Bonus may increase the risk of losing all assets. Clients should seek an independent advice, if
                                 necessary.</li>
                             <strong>Prohibited Activities:</strong>
-                            <li>Hedging trading positions internally (using other trading accounts held with Cabana Capitals) or
+                            <li>Hedging trading positions internally (using other trading accounts held with Aurum Markets) or
                                 externally (using other trading accounts held with other brokers) to avoid market risk is strictly
                                 prohibited.</li>
                             <li>Any form of arbitrage, abuse, fraud, manipulation, cash-back arbitrage, or deceiƞul or fraudulent
                                 activity will result in the nullification of the Promotion and the real trading accounts associated with
-                                Cabana Capitals, along with any transactions or profits gained therein.</li>
+                                Aurum Markets, along with any transactions or profits gained therein.</li>
                             <li>Prohibited trading techniques, such as "arbitrage trading," "picking/sniping," the use of certain
                                 automated trading systems or "Expert Advisors," and abusive trading strategies aimed at riskless
                                 profit, are strictly forbidden. These activities include opening opposite orders, particularly during
@@ -190,11 +190,11 @@ const BoosterBonus = () => {
                             <li> The client’s profile must be verified to obtain this Booster Bonus. For verification, clients have
                                 to upload their verification documents along with a live selfie.</li>
                             <li> The Booster Bonus is available on Premium Bonus Account both MT4/MT5 Trading plaƞorms.</li>
-                            <li> Cabana Capitals reserves the right to disqualify any user, if there is a suspicion of misuse or
+                            <li> Aurum Markets reserves the right to disqualify any user, if there is a suspicion of misuse or
                                 abuse of fair rules.</li>
-                            <li> Cabana Capitals may cancel a client's bonus at any time without prior notification.</li>
+                            <li> Aurum Markets may cancel a client's bonus at any time without prior notification.</li>
                             <li> Any situation not described in these rules shall be subject to the Company's decision.</li>
-                            <li> Cabana Capitals reserves the right to change, update or cancel this promotion without any
+                            <li> Aurum Markets reserves the right to change, update or cancel this promotion without any
                                 prior notification.</li>
                             <li> The above Bonus is subject to the Company’s Terms of Business available on the Company’s
                                 website and Client Area which may be amended from time to time.</li>

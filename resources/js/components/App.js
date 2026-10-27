@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 import AffixBar from "./AffixBar";
 import LandingPage from "./pages/LandingPage/LandingPage";
 import Header from "./Header";
@@ -20,7 +20,6 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = { sideBar: false, promotions: [] };
-        console.log(this.props)
     }
 
     // componentDidMount(){
@@ -34,7 +33,7 @@ class App extends Component {
     componentDidMount() {
         Axios.post('/api/get_promotions').then(res => {
             console.log(res)
-            this.props.changePromotions({ promotion: res.data.promotion, country: res.data.country, continent: res.data.continent });
+            this.props.changePromotions({ promotion: res.data.promotion, country: res.data.country, continent: res.data.continent, city: res.data.city, state: res.data.state });
             this.setState({
                 promotions: res.data.promotion
             })
@@ -62,8 +61,6 @@ class App extends Component {
     render() {
         return (
             <div >
-
-
                 <AffixBar />
                 <Header handleSideBar={this.handleSideBar.bind(this)} />
                 <HeaderMobile

@@ -24,11 +24,11 @@ export default class PatnershipPage extends Component {
             client trades, the more IB's are rewarded.
           </p>
           <h4 className="aboutDetailTitle mt-4">
-            How to become Cabana Capitals IB?
+            How to become Aurum Markets IB?
           </h4>
           <p className="textFont">
             You need to introduce minimum of three clients* to be eligible for
-            Cabana Capitals (IB) program.
+            Aurum Markets (IB) program.
           </p>
         </div>
         <BenfitsComponent />

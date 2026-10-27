@@ -14,7 +14,7 @@ export default class TradingInstrumentComponent extends Component {
             </h4>
             <p className="textFont">
               From currency trading to speculating on the price movements of
-              your favourite trading instruments – Cabana Capitals has it all.
+              your favourite trading instruments – Aurum Markets has it all.
               Enter the vast, complex and exhilarating world of the financial
               markets with a True ECN broker.
             </p>
@@ -23,7 +23,7 @@ export default class TradingInstrumentComponent extends Component {
 
         <TradingInstrumentLeft
           title="Currencies (FX)"
-          text="Cabana Capitals gives you the keys to access the forex market 24 hours a day, 5 days
+          text="Aurum Markets gives you the keys to access the forex market 24 hours a day, 5 days
             a week, allowing you to trade the most popular major, minor and exotic currency pairs. With
             approximately $5 trillion exchanged every single day, the forex market is the most liquid market in
             the world."
@@ -49,7 +49,7 @@ commodities."
         <TradingInstrumentRight
           title="CFD Indices (Spot)"
           text="Access an industry-leading selection of indices from all over the world. Choose CFD
-trading for spot indices with Cabana Capitals and enjoy the flexibility of long trading hours to suit
+trading for spot indices with Aurum Markets and enjoy the flexibility of long trading hours to suit
 your investment and trading needs."
           imgUrl="/assets/images/Layer-14.png"
           learnMoreLink="/cfd-incdices"

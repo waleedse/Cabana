@@ -22,7 +22,7 @@ export default class AnalyticsDropDown extends Component {
                         onClick={this.props.dropDownHandler}
                     >
                         <h5 className="headerDropDownTitle">ANALYTICS</h5>
-                        <a href="https://blog.cabanacapitals.com">
+                        <a href="https://blog.aurummarkets.com/">
                             <div className="headerDropDownItem">Analytics</div>
                         </a>
                         <a href="/autochartist">

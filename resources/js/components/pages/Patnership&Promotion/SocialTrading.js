@@ -36,7 +36,7 @@ class CopyTrading extends Component {
                     <div className="sec3 ">
                         {/* <h1 className="title_ text-center" style={{color:'#df1995'}}>MT4 <span style={{fontSize:'18px'}}>COPY TRADING</span></h1> */}
                         <h6 className="acard_text text-justify py-0 mt-5">
-                            Cabana Capitals Copy Trading is perfect whether you are a beginner or an experienced trader.
+                            Aurum Markets Copy Trading is perfect whether you are a beginner or an experienced trader.
                             Novice traders can gain exposure to the markets while learning! Shorten the learning curve by following expert traders who can provide
                             valuable insight. Experienced traders can save time by getting a clear view of the market, without having to perform daily research.
                             Broaden your horizon by gaining exposure to assets you don’t normally trade.
@@ -47,7 +47,7 @@ class CopyTrading extends Component {
                         <h1 className="title_ text-center" style={{ color: '#df1995' }}> <span style={{ fontSize: '22px' }}>
                             The Latest Innovation in Copy Trading</span></h1>
                         <h6 className="acard_text text-justify">
-                            Cabana Capitals Copy Trading is perfect whether you are a beginner or an experienced trader.
+                            Aurum Markets Copy Trading is perfect whether you are a beginner or an experienced trader.
                             Novice traders can gain exposure to the markets while learning! Shorten the learning curve by following expert traders who can provide
                             valuable insight. Experienced traders can save time by getting a clear view of the market, without having to perform daily research.
                             Broaden your horizon by gaining exposure to assets you don’t normally trade.
@@ -56,7 +56,7 @@ class CopyTrading extends Component {
                     </div>
                 </div>
                 <div className="container-fluid mt-5">
-                    <iframe style={{ width: '100%', height: '600px', border: '1px solid #fff' }} src="https://stats-social.cabanacapitals.com/app/widgets/social_platform_ratings/ratings"></iframe>
+                    <iframe style={{ width: '100%', height: '600px', border: '1px solid #fff' }} src="https://stats-social.aurummarkets.com/widgets/ratings?widgetKey=social_platform_ratings"></iframe>
                 </div>
                 <div className="greyBg">
                     <div className="container-fluid">
@@ -102,7 +102,7 @@ class CopyTrading extends Component {
 
                                 >
                                     <div className="termsCardTitle">A New Way to Share Your Best Trades</div>
-                                    <p className="termsCardText">Want to increase your following or just proud of a big win? Cabana Capitals Copy Trading lets you celebrate your success with an image you can post
+                                    <p className="termsCardText">Want to increase your following or just proud of a big win? Aurum Markets Copy Trading lets you celebrate your success with an image you can post
                                         across your entire social media network, including Facebook, Instagram and Twitter.</p>
                                 </div>
                             </div>

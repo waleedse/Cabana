@@ -7,26 +7,26 @@ class StrategyManage extends Component {
                 <img src="/assets/images/s_manager.png" style={{ width: '100%' }}></img>
                 <div className="card_light  promoOpenAcc">
                     <div className="container">
-                        <h2 className="atitle">Become a Strategy Manager with Cabana Capitals</h2>
+                        <h2 className="atitle">Become a Strategy Manager with Aurum Markets</h2>
 
                         <div className="px-5">
                             <div className="row">
-                            <h1 className="col-md-3 "></h1>
-                            <div>
-                            <div className="d-flex ml-2">
-                                    <img style={{ width: '20px' }} src="/assets/images/promoDone.png"></img>
-                                    Open an account as a Strategy Manager within minutes.
-                                </div>
-                                <div className="d-flex ml-2">
-                                    <img style={{ width: '20px' }} src="/assets/images/promoDone.png"></img>
-                                    Boost your earnings by allowing others to follow your trading strategies
+                                <h1 className="col-md-3 "></h1>
+                                <div>
+                                    <div className="d-flex ml-2">
+                                        <img style={{ width: '20px' }} src="/assets/images/promoDone.png"></img>
+                                        Open an account as a Strategy Manager within minutes.
+                                    </div>
+                                    <div className="d-flex ml-2">
+                                        <img style={{ width: '20px' }} src="/assets/images/promoDone.png"></img>
+                                        Boost your earnings by allowing others to follow your trading strategies
+                                    </div>
                                 </div>
                             </div>
-                            </div>
-                           
+
                             <div className='row ml-auto mt-5 mr-auto'>
                                 <h1 className="col-md-4 "></h1>
-                                <button onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }} className='btnAcc liveAccBtn'>
+                                <button onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }} className='btnAcc liveAccBtn'>
                                     BECAME A STRATEGY MANAGER</button>
                                 <button onClick={() => { window.open('/PAMM', '_self') }}
                                     className='btnAcc liveAccBtn ml-0 ml-md-4'>
@@ -64,7 +64,7 @@ class StrategyManage extends Component {
 
                         <div className='row ml-auto mt-5 mr-auto promoOpenAcc bg-transparent'>
                             <h1 className="col-md-4 "></h1>
-                            <button onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }} className='btnAcc liveAccBtn'>
+                            <button onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }} className='btnAcc liveAccBtn'>
                                 BECAME A STRATEGY MANAGER</button>
                             <button onClick={() => { window.open('/PAMM', '_self') }}
                                 className='btnAcc liveAccBtn ml-0 ml-md-4'>

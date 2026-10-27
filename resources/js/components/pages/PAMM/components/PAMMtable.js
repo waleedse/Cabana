@@ -4,42 +4,42 @@ import { api_url } from '../../../Configs/BaseUrls';
 import Axios from 'axios';
 
 export default function TopSearchSelect() {
-  const [datatable, setDatatable] = React.useState([]);
-  const [originaldata, setOriginaldata] = React.useState([]);
-  const [sort , setSort] = React.useState(10);
+    const [datatable, setDatatable] = React.useState([]);
+    const [originaldata, setOriginaldata] = React.useState([]);
+    const [sort, setSort] = React.useState(10);
 
-  const onchangeshowselection = (value) => {
+    const onchangeshowselection = (value) => {
 
-    let updatedlist = [];
-    if(value != 'All'){
-      if(value < originaldata.length){
+        let updatedlist = [];
+        if (value != 'All') {
+            if (value < originaldata.length) {
 
-        for(var i=0;i<value;i++){
-            updatedlist.push(originaldata[i]);
+                for (var i = 0; i < value; i++) {
+                    updatedlist.push(originaldata[i]);
+                }
+
+            } else {
+
+                updatedlist = originaldata;
+            }
+        } else {
+            updatedlist = originaldata
         }
 
-        }else{
-
-            updatedlist=originaldata;
-        }
-    }else{
-      updatedlist=originaldata
+        setDatatable(updatedlist);
     }
-
-      setDatatable(updatedlist);
-  }
-  useEffect(()=>{
-//   Axios.post('/api/get_pamm_accounts').then(res=>{
-//       console.log(res)
-//        setOriginaldata(res.data);
-//       setDatatable(res.data).then(res=>{
-//         onchangeshowselection(20);
-//       });
-//   })
-  },[])
-  return (
-   <div className="container-fluid web_padding mt-5" >
-    {/* <MDBDataTableV5
+    useEffect(() => {
+        //   Axios.post('/api/get_pamm_accounts').then(res=>{
+        //       console.log(res)
+        //        setOriginaldata(res.data);
+        //       setDatatable(res.data).then(res=>{
+        //         onchangeshowselection(20);
+        //       });
+        //   })
+    }, [])
+    return (
+        <div className="container-fluid web_padding mt-5" >
+            {/* <MDBDataTableV5
           hover
           entriesOptions={[20, 50, 100, 500]}
           entries={20}
@@ -49,7 +49,7 @@ export default function TopSearchSelect() {
           searchTop
           searchBottom={false}
         /> */}
-      {/* <div className="card p-4 stats_card" style={{overflowX:'scroll'}}>
+            {/* <div className="card p-4 stats_card" style={{overflowX:'scroll'}}>
       <div  className="ml-auto ">
         <div >
         <div className="d-flex">
@@ -103,7 +103,7 @@ export default function TopSearchSelect() {
 
       </table>
       </div> */}
-      <iframe style={{width:'100%' , height: '700px' , border: '0px'}} src='https://stats-social.cabanacapitals.com/widgets/ratings?widgetKey=social_platform_ratings'></iframe>
-   </div>
-  );
+            <iframe style={{ width: '100%', height: '700px', border: '0px' }} src='https://stats-social.aurummarkets.com/widgets/ratings?widgetKey=social_platform_ratings'></iframe>
+        </div>
+    );
 }

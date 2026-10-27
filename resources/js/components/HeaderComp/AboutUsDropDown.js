@@ -14,7 +14,7 @@ export default class AboutUsDropDown extends Component {
               <div className="headerDropDownItem">News and Events</div>
             </a> */}
             <a href="/about-us">
-              <div className="headerDropDownItem">Why Cabana</div>
+              <div className="headerDropDownItem">Why Aurum Markets</div>
             </a>
             <a href="/our-location">
               <div className="headerDropDownItem">Contact Us</div>

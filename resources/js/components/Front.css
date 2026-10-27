@@ -405,8 +405,20 @@
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
+    .trustpilot-widget{
+        text-align: left !important;
+        margin-left: -80px;
+        margin-top: 10px;
+      }
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
+    .trustpilot-widget{
+        text-align: left !important;
+        margin-left: -80px;
+        margin-top: 10px;
+      }
   }
+
+

@@ -8,28 +8,29 @@ import TradingPlatforms from "./components/TradingPlatforms";
 import "./components/landingPage.css";
 import AlertModal from "./components/AlertModal";
 import { connect } from "react-redux";
+import ImportantAlert from "./components/ImportantAlert";
 
- class LandingPage extends Component {
+class LandingPage extends Component {
     constructor(props) {
         super(props);
 
     }
 
-  render() {
-    return (
-      <>
-        <LandingSliderSection />
-        <HowItWorks title="HOW IT WORKS" />
-        <TradingPlatforms />
-        {/* <Analytics /> */}
-        <PaymentOptions />
-       {
-        this.props.country == 'Pakistan'  &&  <AlertModal></AlertModal>
-        }
+    render() {
+        return (
+            <>
+                <LandingSliderSection />
+                <HowItWorks title="HOW IT WORKS" />
+                <TradingPlatforms />
+                {/* <Analytics /> */}
+                <PaymentOptions />
+                {
+                    <ImportantAlert></ImportantAlert>
+                }
 
-      </>
-    );
-  }
+            </>
+        );
+    }
 }
 const mapStateToProps = (state) => {
     return {

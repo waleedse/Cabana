@@ -11,7 +11,7 @@ export default class AboutUsPage extends Component {
       <div>
         <HeroSection
           title="ABOUT US"
-          text="Cabana Capitals -True ECN Forex Broker"
+          text="Aurum Markets -True ECN Forex Broker"
         />
         <AboutUsDetails />
         <TradingComponent />

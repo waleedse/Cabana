@@ -84,7 +84,7 @@ const SeminarFinantialFitness = () => {
                             </h1>
                             <h3> Friday 18.10.2024 &
                                 Saturday 19.10.2024
-                                Cabana Capitals Lagos Office
+                                Aurum Markets Lagos Office
 
                             </h3>
                             <h1>10 : 30 am <br />    <span className='text-center ml-5' >to</span>
@@ -131,7 +131,7 @@ const SeminarFinantialFitness = () => {
                                         </div>
                                         <div>
                                             <input type='checkbox' required /> <span>I hereby consent to the collection, processing, and use of my personal
-                                                data by Cabana Capitals for marketing purposes in accordance with
+                                                data by Aurum Markets for marketing purposes in accordance with
                                                 the privacy policy.</span>
                                         </div>
                                         <div className="text-center mt-2">

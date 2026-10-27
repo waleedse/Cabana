@@ -5,15 +5,15 @@ const BoosterBonus = () => {
         <div>
             <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/ultimatebonus.jpg')", height: '700px' }}>
                 <div>
-                <div className='title'><span className='titleLg'>   BECOME AN ULTIMATE WINNER</span><br></br>
+                    <div className='title'><span className='titleLg'>   BECOME AN ULTIMATE WINNER</span><br></br>
 
-with <span className='titleLg'> Ultimate Bonus</span>
-</div>
-<div style={{ fontSize: '22px' }} className='title title2'>
-Sign up now to enjoy 100% + up to $50 Bonus on Your First Deposit!
+                        with <span className='titleLg'> Ultimate Bonus</span>
+                    </div>
+                    <div style={{ fontSize: '22px' }} className='title title2'>
+                        Sign up now to enjoy 100% + up to $50 Bonus on Your First Deposit!
 
-</div>
-                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                    </div>
+                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
             </div>
@@ -83,7 +83,7 @@ Sign up now to enjoy 100% + up to $50 Bonus on Your First Deposit!
                         <br></br>
                         <br></br>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                         </div>
                     </div>
                 </div>

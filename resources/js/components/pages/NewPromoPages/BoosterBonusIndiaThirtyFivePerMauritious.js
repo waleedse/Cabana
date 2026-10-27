@@ -15,18 +15,18 @@ const BoosterBonusIndia = () => {
                         <span className="titleLg"> 35%   Bonus</span>
                     </div>
                     <div style={{ fontSize: "22px" }} className="title title2">
-                        Switch to Cabana Capitals and get benefit of  35%
+                        Switch to Aurum Markets and get benefit of  35%
                         Bonus.
                         <br /> Deposit now and get  35%  booster on your deposits
                         (Up to $10000)
-                        <br /> in Cabana Capitals as credit.
+                        <br /> in Aurum Markets as credit.
                     </div>
                     <button
                         className="btn  btn-danger btn-lg rounded mt-3"
                         style={{ backgroundColor: "#A2237E" }}
                         onClick={() => {
                             window.open(
-                                "https://secure.cabanacapitals.com/register/",
+                                "https://portal.aurummarkets.com/register/",
                                 "_self"
                             );
                         }}
@@ -52,7 +52,7 @@ const BoosterBonusIndia = () => {
                                     className="text mt-2"
                                     style={{ fontSize: "18px" }}
                                 >
-                                    Sign up with Cabana Capitals
+                                    Sign up with Aurum Markets
                                 </h4>
                             </div>
                             <div className="col-md-3 text-center">
@@ -118,7 +118,7 @@ const BoosterBonusIndia = () => {
                     className="btn  btn-dark rounded"
                     onClick={() => {
                         window.open(
-                            "https://secure.cabanacapitals.com/register/",
+                            "https://portal.aurummarkets.com/register/",
                             "_self"
                         );
                     }}
@@ -145,7 +145,7 @@ const BoosterBonusIndia = () => {
                             TRADE FOR AS LOW AS $100
                         </h4> <br></br>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -159,10 +159,10 @@ const BoosterBonusIndia = () => {
                     <div className="">
                         <ul>
                             <li>
-                                 35%  Bonus is available on every deposits (maximum
+                                35%  Bonus is available on every deposits (maximum
                                 accumulated bonus up to $10000) and can only be
                                 claimed by verified Malaysian, Brunei, Vietnam,
-                                Sri Lanka, and Philippine clients of Cabana
+                                Sri Lanka, and Philippine clients of Aurum Markets
                                 Capitals.
                             </li>
                             <li>
@@ -172,7 +172,7 @@ const BoosterBonusIndia = () => {
                             </li>
                             <li>
                                 {" "}
-                                 35%  Bonus is  only available on deposits in
+                                35%  Bonus is  only available on deposits in
                                 Client’s Standard Bonus-35%  or Micro Bonus-35%
                                 Account.
                             </li>
@@ -222,7 +222,7 @@ const BoosterBonusIndia = () => {
                                 {" "}
                                 Bonus amount will be credited to your  35%  Bonus
                                 Account right after you make deposit in to your
-                                 35%  Bonus Account.
+                                35%  Bonus Account.
                             </li>
                             <li> This Bonus Amount is not withdrawable.</li>
                             <li>
@@ -274,7 +274,7 @@ const BoosterBonusIndia = () => {
                             <li>
                                 {" "}
                                 Hedging trading positions internally (using
-                                other trading accounts held with Cabana
+                                other trading accounts held with Aurum Markets
                                 Capitals) or externally (using other trading
                                 accounts held with other brokers) to avoid
                                 market risk is strictly prohibited.
@@ -294,7 +294,7 @@ const BoosterBonusIndia = () => {
                                 other forms of deceitful or fraudulent activity,
                                 will nullify previously credited Customer Bonus
                                 of the Eligible Client’s real trading Accounts
-                                with Cabana Capitals and/or any and all
+                                with Aurum Markets and/or any and all
                                 transactions carried and/or profits garnered
                                 therein.
                             </li>
@@ -323,30 +323,30 @@ const BoosterBonusIndia = () => {
                                 following actions:
                                 <ul>
 
-                                <li> <strong>(a)</strong> close the Client's
-                                account; </li>
-                                <li> <strong>(b)</strong> suspend the Client's account for
-                                an indefinite period of time;
-                                <li> <strong>(c)</strong> carry out an</li>
-                                investigation on the Client's account for an
-                                indefinite period of time; </li>
-                                <li> <strong>(d)</strong> charge a
-                                penalty fee to the Client in the same or greater
-                                amount of money that resulted from the Client
-                                using such techniques; or </li>
-                                <li> <strong>(e)</strong>close the
-                                account, confiscate any profits that arose from
-                                prohibited trading techniques and return the
-                                original deposit(s) to the account holder. If
-                                profits arising out of Prohibited Trading were
-                                already withdrawn, profits can be confiscated
-                                from the Client’s related accounts in order to
-                                make up for the difference. </li>
+                                    <li> <strong>(a)</strong> close the Client's
+                                        account; </li>
+                                    <li> <strong>(b)</strong> suspend the Client's account for
+                                        an indefinite period of time;
+                                        <li> <strong>(c)</strong> carry out an</li>
+                                        investigation on the Client's account for an
+                                        indefinite period of time; </li>
+                                    <li> <strong>(d)</strong> charge a
+                                        penalty fee to the Client in the same or greater
+                                        amount of money that resulted from the Client
+                                        using such techniques; or </li>
+                                    <li> <strong>(e)</strong>close the
+                                        account, confiscate any profits that arose from
+                                        prohibited trading techniques and return the
+                                        original deposit(s) to the account holder. If
+                                        profits arising out of Prohibited Trading were
+                                        already withdrawn, profits can be confiscated
+                                        from the Client’s related accounts in order to
+                                        make up for the difference. </li>
                                 </ul>
                             </li>
                             <li>
                                 {" "}
-                                Cabana Capitals may reject 35%  Bonus
+                                Aurum Markets may reject 35%  Bonus
                                 application(s) at any time without prior
                                 notification or reasons for such decision.
                             </li>
@@ -360,13 +360,13 @@ const BoosterBonusIndia = () => {
                             </li>
                             <li>
                                 {" "}
-                                Cabana Capitals reserves the right to disqualify
+                                Aurum Markets reserves the right to disqualify
                                 any user, if there is a suspicion of misuse or
                                 abuse of fair rules.
                             </li>
                             <li>
                                 {" "}
-                                Cabana Capitals may cancel a client's bonus at
+                                Aurum Markets may cancel a client's bonus at
                                 any time without prior notification.
                             </li>
                             <li>
@@ -376,7 +376,7 @@ const BoosterBonusIndia = () => {
                             </li>
                             <li>
                                 {" "}
-                                Cabana Capitals reserves the right to change,
+                                Aurum Markets reserves the right to change,
                                 update or cancel this promotion without any
                                 prior notification.
                             </li>
@@ -393,7 +393,7 @@ const BoosterBonusIndia = () => {
                             </li>
                             <li>
                                 {" "}
-                               This offer is valid for all clients new as well as for existing clients.
+                                This offer is valid for all clients new as well as for existing clients.
                             </li>
                             <li>
                                 {" "}

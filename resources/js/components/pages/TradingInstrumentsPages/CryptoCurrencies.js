@@ -11,26 +11,26 @@ export default class CryptoCurrencies extends Component {
     return (
       <div>
         <HeroSec2
-           title="Crypto Currencies"
-           title2=""
-           text=""
-           bg="cc.jpeg"
+          title="Crypto Currencies"
+          title2=""
+          text=""
+          bg="cc.jpeg"
         />
-       <div className="greyBg">
-        <div className="basicRow text-center">
-          <p className="textFont">
-          Cryptocurrencies are traded worldwide over the decentralized platform. Cryptocurrency Market has gained the popularity in last 5 year thanks to Bitcoin success which motivated others coin to get popular in the financial market.
-          </p>
-        </div>
-      </div>
-      <div className="container-fluid">
-        <div className="row basicRow">
-          <div className="col-md-6 col-sm-12">
-            <h4 className="aboutDetailTitle">Trading precious metals</h4>
-            <p className="aboutDetailText">
-            Start your Cryptocurrency portfolio with Cabana Capitals to experience the unexplored world of Cryptocurrencies. Cabana Capitals has introduced 15 coins to trade at its Platform.
+        <div className="greyBg">
+          <div className="basicRow text-center">
+            <p className="textFont">
+              Cryptocurrencies are traded worldwide over the decentralized platform. Cryptocurrency Market has gained the popularity in last 5 year thanks to Bitcoin success which motivated others coin to get popular in the financial market.
             </p>
-            {/* <ul className="pl-3">
+          </div>
+        </div>
+        <div className="container-fluid">
+          <div className="row basicRow">
+            <div className="col-md-6 col-sm-12">
+              <h4 className="aboutDetailTitle">Trading precious metals</h4>
+              <p className="aboutDetailText">
+                Start your Cryptocurrency portfolio with Aurum Markets to experience the unexplored world of Cryptocurrencies. Aurum Markets has introduced 15 coins to trade at its Platform.
+              </p>
+              {/* <ul className="pl-3">
               <li className="aboutDetailText">UK Brent oil (spot)</li>
               <li className="aboutDetailText">
               US crude oil (spot)
@@ -42,24 +42,24 @@ export default class CryptoCurrencies extends Component {
             The prices of oil and other energy products fluctuate according to a huge number of factors, including demand, supply and general confidence in the global economy.
 
             </p> */}
-          </div>
-          <div className="col-md-6 col-sm-12">
-            <h4 className="aboutDetailTitle">Key benefits</h4>
-            <ul className="pl-3">
-              <li className="aboutDetailText">Traded Worldwide</li>
-              <li className="aboutDetailText">
-              The market is open 24/7 – trade any time that suits you
+            </div>
+            <div className="col-md-6 col-sm-12">
+              <h4 className="aboutDetailTitle">Key benefits</h4>
+              <ul className="pl-3">
+                <li className="aboutDetailText">Traded Worldwide</li>
+                <li className="aboutDetailText">
+                  The market is open 24/7 – trade any time that suits you
 
-              </li>
-              <li className="aboutDetailText">5:1 Leverage
-</li>
-<li className="aboutDetailText">Expert Advisors Allowed
-</li>
-            </ul>
+                </li>
+                <li className="aboutDetailText">5:1 Leverage
+                </li>
+                <li className="aboutDetailText">Expert Advisors Allowed
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      {/* <div className="greyBg">
+        {/* <div className="greyBg">
         <div className="container-fluid">
           <div className="row basicRow">
 
@@ -91,13 +91,13 @@ export default class CryptoCurrencies extends Component {
           </div>
         </div>
       </div> */}
-      {/* <div className="container-fluid">
+        {/* <div className="container-fluid">
           <div className="row basicRow">
             <div className="col-12 text-center">
               <h4 className="aboutDetailTitle">CFD Commodities Pairs
 </h4>
               <p className="aboutDetailText">
-              Get superior service and instant order execution on 3 CFD Commodities Pairs from Cabana Capitals.
+              Get superior service and instant order execution on 3 CFD Commodities Pairs from Aurum Markets.
               Take control of your forex investments and enjoy the best risk-reward opportunities of the financial
               markets with an award winning forex brokerage firm. Reap the benefits of superior professional services
               and instant order execution on 3 popular CFD
@@ -106,7 +106,7 @@ export default class CryptoCurrencies extends Component {
             </div>
           </div>
         </div> */}
-        <TraidingCurrenciesTable/>
+        <TraidingCurrenciesTable />
         <StepsToOpenAccount></StepsToOpenAccount>
         {/* <TradingCurrenciesDataTable /> */}
       </div>

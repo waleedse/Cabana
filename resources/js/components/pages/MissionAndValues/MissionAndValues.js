@@ -11,7 +11,7 @@ export default class MissionAndValues extends Component {
     return (
       <div>
         <HeroSection
-          title="CABANA CAPITALS "
+          title="Aurum markets "
           title2="MISSION AND VALUES"
         ></HeroSection>
         <MissionCard />

@@ -147,7 +147,7 @@ class HeaderMobile extends Component {
                       </a> */}
                                             <a href="/about-us">
                                                 <div className="sideBarItem">
-                                                    <span> Why Cabana</span>
+                                                    <span> Why Aurum Markets</span>
                                                 </div>
                                             </a>
                                             <a href="/our-location">
@@ -346,7 +346,7 @@ class HeaderMobile extends Component {
                                             <a href="/analytics">
                                                 <div className="headerDropDownItem">How to use Mt4</div>
                                             </a>
-                                            <a href="https://blog.cabanacapitals.com">
+                                            <a href="https://blog.aurummarkets.com/">
                                                 <div className="headerDropDownItem">Analytics</div>
                                             </a>
                                             <a href="/autochartist">
@@ -359,7 +359,7 @@ class HeaderMobile extends Component {
                             )}
                             {this.state.activeDropDown === "promotion" && (
                                 <>
-                                    <HeaderMobileLastDropDown activeDropDown={true} title="Cabana Invest">
+                                    <HeaderMobileLastDropDown activeDropDown={true} title="Aurum Markets Invest">
                                         <div
                                             onClick={() => {
                                                 this.handleChangeDropDown(null);
@@ -367,7 +367,7 @@ class HeaderMobile extends Component {
                                                 return;
                                             }}
                                         >
-                                            <a href="https://social.cabanacapitals.com/portal/login">
+                                            <a href="https://social.aurummarkets.com/portal/login">
                                                 <div className="sideBarItem">Social Trading</div>
                                             </a>
                                             {/* <a href="/PAMM">
@@ -383,7 +383,7 @@ class HeaderMobile extends Component {
                             )}
                             {this.state.activeDropDown === "analytic" && (
                                 <>
-                                    <HeaderMobileLastDropDown activeDropDown={true} title="Cabana Invest">
+                                    <HeaderMobileLastDropDown activeDropDown={true} title="Aurum Markets Invest">
                                         <div
                                             onClick={() => {
                                                 this.handleChangeDropDown(null);
@@ -391,7 +391,7 @@ class HeaderMobile extends Component {
                                                 return;
                                             }}
                                         >
-                                            <a href="https://social.cabanacapitals.com/portal/login">
+                                            <a href="https://social.aurummarkets.com/portal/login">
                                                 <div className="sideBarItem">Social Login</div>
                                             </a>
                                             <a href="/social-trading">

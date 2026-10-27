@@ -4,12 +4,12 @@ const Autochartist = () => {
     return (
         <div>
             <div>
-                <img onClick={() => { window.open('https://secure.cabanacapitals.com/pages/47/', '_blank') }} className='mobileMargin' style={{ width: '100%', cursor: 'pointer' }} src='/assets/images/autochartist/TopBanner.jpg'></img>
+                <img onClick={() => { window.open('https://portal.aurummarkets.com/pages/47/', '_blank') }} className='mobileMargin' style={{ width: '100%', cursor: 'pointer' }} src='/assets/images/autochartist/TopBanner.jpg'></img>
             </div>
             <div className='container fifty_per_page'>
                 <div className='row mt-3'>
                     <div className='col-md-12'>
-                        <h4 className='text-bold atitle text-center pb-2' style={{ color: '#9b005f' }}>Join Cabana Capitals to help you make
+                        <h4 className='text-bold atitle text-center pb-2' style={{ color: '#9b005f' }}>Join Aurum Markets to help you make
                             <br />smarter trading selections! </h4>
                         <h5 className='text-bold title text-center mt-2' >With Autochartist, an award-winning analytics toolkit created to improve your  market insights, <br />you can strengthen your trading strategy.  </h5>
                     </div>
@@ -26,7 +26,7 @@ const Autochartist = () => {
                         <h4 className='text-bold atitle text-left px-0 pb-2' style={{ color: '#9b005f', fontSize: '38px' }}>
                             What is Autochartist? </h4>
                         <h5 className='font-weight-light title text-left mt-2' >
-                            Autochartist is a premium trading suite with tools that automate market analysis for forex, stocks, and crypto traders. It uses sophisticated algorithms to identify high-probability trade setups and provides real-time trading signals by analyzing past and present market trends. These essential tools save traders time and offer fast, actionable insights, giving Cabana Capitals' clients a competitive advantage in dynamic markets.
+                            Autochartist is a premium trading suite with tools that automate market analysis for forex, stocks, and crypto traders. It uses sophisticated algorithms to identify high-probability trade setups and provides real-time trading signals by analyzing past and present market trends. These essential tools save traders time and offer fast, actionable insights, giving Aurum Markets' clients a competitive advantage in dynamic markets.
                         </h5>
 
                     </div>
@@ -42,7 +42,7 @@ const Autochartist = () => {
 
                         Daily Market Insights                </h4>
                     <h5 className='font-weight-light title text-left mt-2' >
-                        Acquire a daily advantage in Forex trading by subscribing to Cabana Capital’s exclusive Daily
+                        Acquire a daily advantage in Forex trading by subscribing to Aurum Markets’s exclusive Daily
                         <br></br>Market Report email service, which is partnered with Autochartist. These reports serve as your
                         <br></br>personal market guide, providing more than just summaries. They include:
                     </h5>
@@ -87,7 +87,7 @@ const Autochartist = () => {
                     </div>
                     {/* <div className='text-center'>
 
-                        <button className='btn  btn-dark btn-lg  mt-4 p-3' style={{ backgroundColor: '#000', borderRadius: '7px' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Create an Account - It’s Free!</button>
+                        <button className='btn  btn-dark btn-lg  mt-4 p-3' style={{ backgroundColor: '#000', borderRadius: '7px' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Create an Account - It’s Free!</button>
                     </div> */}
 
                 </div>
@@ -101,7 +101,7 @@ const Autochartist = () => {
 
                     Research Portal Access              </h4>
                 <h5 className='font-weight-light title text-center mt-2' >
-                    Through the Cabana Capitals Customer Portal, clients of Cabana Capitals can conveniently access the
+                    Through the Aurum Markets Customer Portal, clients of Aurum Markets can conveniently access the
                     <br></br>Autochartist Research Portal directly. The Autochartist tools may be used and navigated with ease
                     <br></br>thanks to this integrated access.
 
@@ -109,7 +109,7 @@ const Autochartist = () => {
 
                 <div className='text-center'>
 
-                    <button className='btn  btn-dark btn-lg  mt-2 px-5' style={{ backgroundColor: '#A2237E', borderRadius: '7px' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Login to Portal</button>
+                    <button className='btn  btn-dark btn-lg  mt-2 px-5' style={{ backgroundColor: '#A2237E', borderRadius: '7px' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Login to Portal</button>
                 </div> */}
 
                 <div className='container'>
@@ -237,7 +237,7 @@ const Autochartist = () => {
                     </div>
                 </div>
 
-                <div className='text-center mt-5'>
+                {/* <div className='text-center mt-5'>
                     <h3>Check out our <strong>social media links</strong></h3>
                 </div>
                 <div className='row'>
@@ -253,7 +253,7 @@ const Autochartist = () => {
                     <div className='col-md-3 p-2'>
                         <img style={{ width: '100%' }} src='/assets/images/autochartist/4.jpg'></img>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div >
     );

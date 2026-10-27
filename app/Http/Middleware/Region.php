@@ -4,7 +4,6 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use App\Models\Country;
 
 class Region
 {
@@ -12,11 +11,16 @@ class Region
     {
         $position = $this->get_client_location($request);
 
-        if (isset($position['geoplugin_countryName'])) {
-            $blockedCountries = ['India', 'Pakistan', 'Bangladesh', 'Nigeria', 'South Africa'];
+        if (isset($position['country'])) {
+            $blockedCountries = [];
+            $maintenanceCountries = ['Mauritius'];
 
-            if (in_array($position['geoplugin_countryName'], $blockedCountries)) {
+            if (in_array($position['country'], $blockedCountries)) {
                 abort(403, 'Access denied from your country.');
+            }
+
+            if (in_array($position['country'], $maintenanceCountries)) {
+                abort(503, 'Service unavailable for maintenance in Mauritius.');
             }
         }
 
@@ -26,9 +30,9 @@ class Region
     public function get_client_location(Request $request)
     {
         $curl = curl_init();
-
+        $url = 'http://ip-api.com/json/'.$request->ip().'?fields=status,message,continent,continentCode,country,countryCode,region,regionName,city,zip,lat,lon,timezone,offset,currency,isp,org,as,';
         curl_setopt_array($curl, array(
-            CURLOPT_URL => 'http://www.geoplugin.net/php.gp?ip=' . $request->ip(),
+            CURLOPT_URL => $url,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
@@ -42,7 +46,7 @@ class Region
         $res = curl_exec($curl);
         curl_close($curl);
 
-        $res = unserialize($res);
+        $res = json_decode($res, true);
         return $res;
     }
 }

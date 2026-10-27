@@ -2,11 +2,25 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { a } from "react-router-dom";
 
+const notAllowedCities = ['Hyderabad',
+    'Chennai'];
+
+const notAllowedStates = ['Tamil Nadu',
+    'Andhra Pradesh',
+    'Telegana',
+    'Telangana',
+    'Maharashtra',
+    'Karnataka',
+    'Madhya Pradesh',
+    'Kerala',
+    'Uttar Pradesh'
+];
+
 class Footer extends Component {
     constructor(props) {
         super(props);
-        console.log('props', this.props)
     }
+
     render() {
         return (
             <div className="container-fluid">
@@ -18,18 +32,29 @@ class Footer extends Component {
                                 src="/assets/images/logotrans.png"
                                 alt="image"
                             ></img>
-                            <h3 className="footerTitle">Registered Office</h3>
-                            <p className="footerText">
-                                Cabana Capitals Limited<br />
-                                Suite 305, Griffith Corporate Centre,<br /> PO Box 1510, Beachmont, Kingstown,<br /> Saint Vincent and the Grenadines
-                                {/*<br /><br />Cabana Markets Limited<br />
-                                Office no. 212, Ground floor ,Block A,
-                                <br />The junction Business Hub, <br />
-        Calebasses Branch Rd, Calebasses, Mauritius */}
-                            </p>
+                            {
+                                this.props.city && !notAllowedCities.includes(this.props.city) && !notAllowedStates.includes(this.props.state) && (
+                                    <>
+
+                                        <h3 className="footerTitle">Registered Office</h3>
+                                        <p className="footerText">
+                                            Aurum Markets Limited<br />
+                                            {/* Ground Floor, The Sotheby Building,<br />
+                                Rodney Village, Rodney Bay,<br />
+                                Gros-Islet, Saint Lucia<br /> */}
+
+
+
+                                            Office no. 212, Ground floor ,Block A,
+                                            <br />The junction Business Hub, <br />
+                                            Calebasses Branch Rd, Calebasses, Mauritius
+                                        </p>
+                                    </>
+                                )
+                            }
                             <div className="footerSocialBox">
                                 <div className="footerSocialCircle">
-                                    <a href="https://www.facebook.com/CabanaCapitalsDubai/">
+                                    <a href="https://www.facebook.com/AurumMarketsGlobal/">
                                         <img
                                             src="/assets/images/socialIcon1.png"
                                             alt="social"
@@ -37,7 +62,7 @@ class Footer extends Component {
                                         ></img> </a>
                                 </div>
                                 <div className="footerSocialCircle">
-                                    <a href="https://twitter.com/cabana_capitals">
+                                    <a href="https://x.com/AurumMarkets">
                                         <img
                                             src="/assets/images/socialIcon2.png"
                                             alt="social"
@@ -45,7 +70,7 @@ class Footer extends Component {
                                         ></img> </a>
                                 </div>
                                 <div className="footerSocialCircle">
-                                    <a href="https://youtube.com/c/CabanaCapitals">
+                                    <a href="https://www.youtube.com/@AurumMarkets">
                                         <img
                                             src="/assets/images/socialIcon3.png"
                                             alt="social"
@@ -53,6 +78,7 @@ class Footer extends Component {
                                         ></img></a>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                     {/* {"\u00BB"} */}
@@ -67,7 +93,7 @@ class Footer extends Component {
 
                         </a>
 
-                        <a href="/privacy-policy">
+                        <a href="/files/AM_Privacy_Policy.pdf">
                             <p className="footerLinkText"> Privacy Policy</p>
 
                         </a>
@@ -84,10 +110,10 @@ class Footer extends Component {
                         <a href="/terms-and-condition">
                             <p className="footerLinkText"> Terms and Conditions</p>
                         </a>
-                        <a href="https://cabanacapitals.com/pdf/CCL_Term_and_Conditions.pdf" target="_blank"  >
+                        <a href="/files/AM_Client_Agreement.pdf" target="_blank"  >
                             <p className="footerLinkText"> Client Agreement</p>
                         </a>
-                        <a href="/files/IB_Agreement.pdf" target="_blank"  >
+                        <a href="/files/AM_IB_Agreement.pdf" target="_blank"  >
                             <p className="footerLinkText"> IB Agreement</p>
                         </a>
                     </div>
@@ -99,76 +125,68 @@ class Footer extends Component {
                             <p className="footerLinkText"> Our Location</p>
 
                         </a>
+                        {/* <div className="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="67b7c875c713494839509c3f" data-style-height="52px" data-style-width="100%">
+                            <a href="https://www.trustpilot.com/review/aurummarkets.com" target="_blank" rel="noopener">Trustpilot</a>
+                        </div> */}
                         {/* <p className="footerLinkText"> Contact Us</p> */}
                     </div>
 
                 </div>
                 <div className="row footerSecondRow">
-                    {
-                        this.props.continent != 'Africa' ?
-                            <p className="footerText footerText_justify">
-                                <span className="textBold">Legal: </span>
-                                Cabana Capitals Limited is incorporated in St. Vincent & the Grenadines as an International Broker Company
-                                with the registration number 24185 IBC 2017. The objects of the Company are all subject matters not forbidden
-                                by International Business Companies (Amendment and Consolidation) Act, Chapter 149 of the Revised Laws of Saint
 
-                                Vincent and Grenadines, 2009, in particular but not exclusively all commercial, financial, lending, borrowing,
-                                trading, service activities and the participation in other enterprises as well as href provide brokerage, training and managed account services in currencies, commodities, indexes, CFD's and leveraged financial instruments. Risk Warning: Trading Forex and CFDs involves significant risk and can result in the loss of your invested capital. You should not invest more than you can afford href lose and should ensure that you fully understand the risks involved. Trading leveraged products may not be suitable for all investors. Before trading, please take into consideration your level of experience, investment objectives and seek independent financial advice if necessary. It is the responsibility of the Client href ascertain whether he/she is permitted href use the services of the Cabana Capitals based on the legal requirements in his/her country of residence. Please read Cabana Capitals™ full Risk Disclosure. Regional Restrictions: Cabana Capitals does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
-                                {/* Cabana (Markets) Limited is regulated by the financial services commission (FSC) of Republic of Mauritius, c
-                                ategory 1 Global Business No. GB22200748License | Company Reg. No 195270 GBC. */}
+                    {this.props.city && !notAllowedCities.includes(this.props.city) && !notAllowedStates.includes(this.props.state) && (
+
+                        <>
+                            <p className="footerText footerText_justify">
+                                <strong >Legal: </strong> Aurum Markets Limited is incorporated in Mauritius as an
+                                International Broker Company with registration number 195270GBC, having its registered
+                                office at Office No. 212, Ground Floor, Block A,
+                                The Junction Business Hub, Calebasses Branch Road, Calebasses, Mauritius.
+                                The objects of the Company include all commercial, financial, lending, borrowing, trading, and service activities, as well as participation in other enterprises. The Company provides brokerage, training, and managed account services in currencies, commodities, indices, CFDs, and other leveraged financial instruments.
                             </p>
-                            :
-                            <></>
-                    }
-                    {
-                        this.props.country != 'South Africa' ?
-                            <p className="footerText footerText_justify">
-                                <span className="textBold"> Risk Warning:</span> Forex margin trading is risky, can involve money loss due to leverage, and may not be suitable for all investors. Be sure that you understand how derivative products work and fully understand possible risks. Set investment goals based on your trading experience and seek independent advice if you need it. View full Risk Disclosure.
-                                Regional Restrictions: Cabana Capitals does not provide services href residents of the EU Region, USA, Canada, Belgium, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
-                                {/* <br /> <br />Cabana Capitals brand is represented by the following entities and regulations: */}
-                                <br /><br />Cabana Capitals Ltd incorporate in St. Vincent & the Grenadines with company registration number 24185 IBC 2017.
-                                {/* <br /><br /> Cabana Capitals is regulated in South Africa under the name of Gao Financial Services (Pty) Ltd and holds a Financial Service Provider (FSP) license number 44692 from the Financial Sector Conduct Authority (FSCA) in South Africa. */}
-                            </p> :
-                            <></>
-                    }
-                    {
-                        this.props.continent == 'Africa' && this.props.country == 'South Africa' ?
-                            <p className="footerText footerText_justify">
-                                <span className="textBold"> Risk Warning:</span> Forex margin trading is risky, can involve money loss due to leverage, and may not be suitable for all investors. Be sure that you understand how derivative products work and fully understand possible risks. Set investment goals based on your trading experience and seek independent advice if you need it. View full Risk Disclosure.
-                                <br /><br /> Gao Financial Services (Pty) Ltd. holds a Financial Service Provider (FSP) licence number 44692 from the Financial Sector Conduct Authority (FSCA) in South Africa.
-                                <br /><br /> Gao Financial Services (Pty) Ltd. has the authority to operate under the Cabana Capitals brand and trademarks.
-                            </p> :
-                            <></>
-                    }
 
-                    {this.props.country != 'India' && this.props.country != 'South Africa' && this.props.country != 'United Arab Emirates' ?
+                            <p className="footerText footerText_justify">
+                                Aurum Markets Limited is also incorporated in Saint Lucia as an International Broker Company with registration number 2024-00298, having its registered address at Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia.
+                            </p>
+
+
+                            <p className="footerText footerText_justify ">
+                                <span className="textBold"> Risk Warning:
+                                </span>
+                                Trading Forex and CFDs involves a high level of risk and may result in the loss of all your invested capital. You should not invest more than you can afford to lose and should ensure that you fully understand the risks involved. Leveraged products may not be suitable for all investors. Before trading, please carefully consider your experience level, investment objectives, and seek independent financial advice if necessary. It is the responsibility of the Client to ascertain whether they are permitted to use the services of Aurum Markets based on the legal requirements in their country of residence. Please read Aurum Markets™️ full Risk Disclosure for more information.
+
+                            </p>
+
+                            <p className="footerText footerText_justify">
+                                <span className="textBold">Regional Restrictions:  </span>
+                                Aurum Markets does not provide services to residents of the EU Region, USA, Canada, Belgium, India, Russia, and FATF Blacklisted Countries. Find out more in the Account Opening section of our FAQs.                    </p>
+                        </>
+                    )}
+                    {this.props.country === 'South Africa' && (
                         <p className="footerText footerText_justify">
-                            Cabana capitals is regulated in Mauritius under the name of Cabana (Markets) Limited and is regulated by the Financial Services Commision of Mauritius (FSC) under the license number
-                            GB22200748. The FSC is the principal regulator of the financial services industry in Mauritius.
+                            Aurum Markets Ltd is incorporated in the Republic of Mauritius with company registration number 195270 GBC. The company is licensed and regulated by the Financial Services Commission (FSC) of Mauritius to offer financial services.
 
-                        </p> :
-                        <></>
-                    }
+                            Aurum Global Markets (PTY) Ltd is authorized by the Financial Sector Conduct Authority (FSCA) in South Africa as a Financial Service Provider (FSP number 44692). Aurum Global Markets (PTY) Ltd operates under www.aurummarkets.com.
 
-                    {/* <p className="footerText">
-            CCL FINTECH LIMITED is registered in the United Kindom, Company
-            number 11501218. Registered address: 71-75 Shelton Street, London,
-            Greater London, United Kingdom, WC2H 9JQ.
-          </p> */}
+                            Aurum Markets does not provide services to the  residents of the EU Region, USA, Canada, Belgium,Russia, India and FATF Black Listed Countries. Find out more in the Account Opening section of our FAQs.
+                        </p>
+                    )}
+
                 </div>
                 <div className="row footerRightsRow">
                     <h5 className="footerRightsText">
-                        Copyright {(new Date().getFullYear())} {"\u00A9"} Cabana Capitals All Right Reserved
+                        Copyright {(new Date().getFullYear())} {"\u00A9"} Aurum Markets All Right Reserved
                     </h5>
                 </div>
-            </div>
+            </div >
         );
     }
 }
 const mapStateToProps = (state) => {
     return {
         country: state.country,
-        continent: state.continent
+        continent: state.continent,
+        city: state.city
     }
 }
 

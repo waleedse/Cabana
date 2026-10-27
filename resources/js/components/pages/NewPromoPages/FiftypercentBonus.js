@@ -7,7 +7,7 @@ const FiftypercentBonus = () => {
                 <div>
                     <div className='title'><span className='titleLg'>Get Upto 50% bonus</span></div>
                     <div className='title title2'>ON EVERY DEPOSIT AS CREDIT</div>
-                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                    <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
             </div>
@@ -34,10 +34,10 @@ const FiftypercentBonus = () => {
                             </div>
                         </div>
 
-                        <h4 className='text  text-center text-dark mt-3 px-3' style={{ fontSize: '18px' }}>       Switch to Cabana Capitals and get benefit of 50% Bonus.
-                            Deposit now and get 50% Bonus on your deposit in Cabana Capitals  as credit.  </h4>
+                        <h4 className='text  text-center text-dark mt-3 px-3' style={{ fontSize: '18px' }}>       Switch to Aurum Markets and get benefit of 50% Bonus.
+                            Deposit now and get 50% Bonus on your deposit in Aurum Markets  as credit.  </h4>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-dark rounded' onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                            <button className='btn  btn-dark rounded' onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                         </div>
 
                     </div>
@@ -129,19 +129,19 @@ const FiftypercentBonus = () => {
                     <h4 className='text-bold title title2 text-center pt-4'>Promotion Rules</h4>
                     <div className=' p-3 text-light'>
                         <ul>
-                            <li>  This Bonus can only be claimed by a verified customer of Cabana Capitals.</li>
+                            <li>  This Bonus can only be claimed by a verified customer of Aurum Markets.</li>
 
-                            <li>The Bonus promotion is only available for Clients using Cabana Capitals Mt4/MT5 Trading platform.</li>
+                            <li>The Bonus promotion is only available for Clients using Aurum Markets Mt4/MT5 Trading platform.</li>
 
-                            <li>Up to 50% Bonus is available on all new deposit amounts in Clients Trading Account (at Cabana Capitals).</li>
+                            <li>Up to 50% Bonus is available on all new deposit amounts in Clients Trading Account (at Aurum Markets).</li>
 
-                            <li>The Bonus can be claimed up to 50% on a deposit in Cabana Capitals MT4/MT5 trading account by accepting terms and conditions via email confirmation.</li>
+                            <li>The Bonus can be claimed up to 50% on a deposit in Aurum Markets MT4/MT5 trading account by accepting terms and conditions via email confirmation.</li>
 
                             <li>The Bonus cannot be added to internal transfer deposits and to deposits from other promotions and contests.</li>
 
                             <li>It is advised to claim a bonus right after your deposit is credited to your trading account.</li>
 
-                            <li>Customer Bonus is applicable on Premium and Premium Line Account at Cabana Capitals.</li>
+                            <li>Customer Bonus is applicable on Premium and Premium Line Account at Aurum Markets.</li>
 
                             <li>The Bonus shall be credited into your account and locked until terms and conditions are met. Once terms and conditions are completed, the Bonus will be deducted from your MT5 credit and simultaneously deposited into your balance. The operation will be processed on a daily basis after receiving the processing request from client.</li>
 
@@ -171,23 +171,23 @@ const FiftypercentBonus = () => {
                                 If you deposit $500 into your account and receive $250 (50% Bonus) and then withdraw $1, the Bonus will be cancelled. However, if you make profit you can withdraw the profit made anytime and it will not affect your Bonus.
                                 Expert Advisors (EA’s) are not allowed on accounts active for Customer Bonus promotion.</li>
 
-                            <li> Hedging trading positions internally (using other trading accounts held with Cabana Capitals) or externally (using other trading accounts held with other brokers) to avoid market risk is not allowed.</li>
+                            <li> Hedging trading positions internally (using other trading accounts held with Aurum Markets) or externally (using other trading accounts held with other brokers) to avoid market risk is not allowed.</li>
 
-                            <li>Any indication or suspicion, in the Company’s reasonable discretion, of any form of arbitrage (including but not limited to risk free profiting), abuse (including but not limited to participant's trading activity patterns that indicate that the participant solely aims to benefit financially from the Customer Bonus without being genuinely interested in trading in the markets and/or taking market risk), Hedging, fraud, manipulation, cash-back arbitrage or any other forms of deceitful or fraudulent activity, will nullify previously credited Customer Bonus of the Eligible Client’s real trading Accounts with Cabana Capitals and/or any and all transactions carried and/or profits garnered therein.</li>
+                            <li>Any indication or suspicion, in the Company’s reasonable discretion, of any form of arbitrage (including but not limited to risk free profiting), abuse (including but not limited to participant's trading activity patterns that indicate that the participant solely aims to benefit financially from the Customer Bonus without being genuinely interested in trading in the markets and/or taking market risk), Hedging, fraud, manipulation, cash-back arbitrage or any other forms of deceitful or fraudulent activity, will nullify previously credited Customer Bonus of the Eligible Client’s real trading Accounts with Aurum Markets and/or any and all transactions carried and/or profits garnered therein.</li>
 
-                            <li>Cabana Capitals may reject Bonus application(s) at any time without prior notification or reasons for such decision.</li>
+                            <li>Aurum Markets may reject Bonus application(s) at any time without prior notification or reasons for such decision.</li>
 
                             <li>Clients agree that information provided during the registration process may be used by the Company both within the context of the Bonus Account Campaign and for any other marketing purposes.</li>
 
-                            <li>Cabana Capitals reserves the right to disqualify any user, if there is a suspicion of misuse or abuse of fair rules.</li>
+                            <li>Aurum Markets reserves the right to disqualify any user, if there is a suspicion of misuse or abuse of fair rules.</li>
 
-                            <li>Cabana Capitals may cancel a client's bonus at any time without prior notification.</li>
+                            <li>Aurum Markets may cancel a client's bonus at any time without prior notification.</li>
 
                             <li>Any situation not described in these rules shall be subject to the Company's decision.</li>
 
-                            <li>Cabana Capitals reserves the right to change, update or cancel this promotion without any prior notification.</li>
+                            <li>Aurum Markets reserves the right to change, update or cancel this promotion without any prior notification.</li>
 
-                            <li>This Bonus promotion is for all countries where Cabana Capitals is operating except India.</li>
+                            <li>This Bonus promotion is for all countries where Aurum Markets is operating except India.</li>
 
                             <li>This promotion will run from 25th Jan 2024 until further notice.</li>
                         </ul>

@@ -76,8 +76,18 @@ import DubaiLuxuryPromotionIndia from './pages/NewPromoPages/DubaiLuxuryPromotio
 import UmrahpackagePromotion from './pages/NewPromoPages/UmrahpackagePromotion';
 import Autochartist from './pages/NewPromoPages/Autochatist';
 import SeminarFinantialFitness from './pages/NewPromoPages/seminar';
-import IbRewardsPromotion from './pages/NewPromoPages/IbRewardsPromotion';
-import UnlimitedCashback from './pages/NewPromoPages/UnlimitedCashback';
+import TwentyFiveThousandBonusPromotion from './pages/NewPromoPages/TwentyFiveThousandBonusPromotion';
+import SignUpBonusPromotion from './pages/NewPromoPages/SignUpBonusPromotion';
+import PrizeLotPromotion from './pages/NewPromoPages/prizeLotPromotion';
+import IbRewardPromotion from './pages/NewPromoPages/ibRewards';
+import UnlimitedCashbackPromotion from './pages/NewPromoPages/unlimitedCashbackPromotion';
+import FortyPercentBonus from './pages/NewPromoPages/FortyPercentBonus';
+import CentsAccountPromotion from './pages/NewPromoPages/CentsAccountPromotion';
+import CashBackReward from './pages/NewPromoPages/CashBackReward';
+import IBRewardPromotion from './pages/NewPromoPages/IBRewardPromotion';
+import GlobalIBPromotion2025 from './pages/NewPromoPages/GlobalIBPromotion2025';
+import CryptoDepositBonus2025 from './pages/NewPromoPages/CryptoDepositBonus2025';
+import Leverage1000Promotion from './pages/NewPromoPages/Leverage1000Promotion';
 
 class Routes extends Component {
 
@@ -94,6 +104,7 @@ class Routes extends Component {
                 <Route path="/account-type-malaysia" component={AccountTypesMalaysia}></Route>
                 <Route path="/account-type-pakistan" component={AccountTypesPakistan}></Route>
                 <Route path="/account-type-indonesia" component={AccountTypesIndonesia}></Route>
+                <Route path="/forty-percent-bonus" component={FortyPercentBonus}></Route>
 
                 <Route path="/affiliate-program" component={Affiliyate}></Route>
                 <Route
@@ -136,7 +147,9 @@ class Routes extends Component {
 
                 <Route path="/no-deposit-bonus" component={NoDeposit30}></Route>
                 <Route path="/lucky-draw-promotion" component={luckydrawpromotion}></Route>
-
+                <Route path="/twenty-five-thousand-bonus-promotion" component={TwentyFiveThousandBonusPromotion}></Route>
+                <Route path="/signup-bonus-promotion" component={SignUpBonusPromotion}></Route>
+                <Route path="/cents-account-promotion" component={CentsAccountPromotion}></Route>
                 <Route path="/mt4-platform" component={Mt4}></Route>
                 <Route path="/mt5-platform" component={Mt5}></Route>
                 <Route path="/promotion" component={PromotionPage}></Route>
@@ -159,7 +172,6 @@ class Routes extends Component {
                 <Route path="/ultimate-bonus" component={UltimateBonus} />
                 <Route path="/booster-bonus-malaysia" component={BoosterBonusMalaysia} />
                 <Route path="/cashback-bonus" component={EidBonus} />
-                <Route path="/ib-rewards-promotion" component={IbRewardsPromotion} />
                 <Route path="/booster-bonus-thirtyfive-percent" component={BoosterBonusIndiaThirtyFivePer} />
                 <Route path="/thirtyfive-percent-bonus" component={BoosterBonusIndiaThirtyFivePerMauritious} />
                 <Route path="/dubai-luxury-promotion" component={DubaiLuxuryPromotion} />
@@ -167,7 +179,15 @@ class Routes extends Component {
                 <Route path="/dubai-luxury-promotion-india" component={DubaiLuxuryPromotionIndia} />
                 <Route path="/thailand-welcome-bonus-promotion" component={ThailandPromotion} />
                 <Route path="/additional-usdt-deposit-promotion" component={AdditionalUSDTPromotion} />
-                <Route path="/unlimited-cashback-promotion" component={UnlimitedCashback} />
+                <Route path="/prize-lot-promotion" component={PrizeLotPromotion} />
+                <Route path="/ib-reward-promotion" component={IbRewardPromotion} />
+                <Route path="/unlimited-cashback-promotion" component={UnlimitedCashbackPromotion} />
+                <Route path="/cashback-reward-promotion" component={CashBackReward} />
+                <Route path="/aurum-ib-reward-promotion" component={IBRewardPromotion} />
+                <Route path="/global-ib-promotion-2025" component={GlobalIBPromotion2025} />
+                <Route path="/crypto-deposit-bonus-2025" component={CryptoDepositBonus2025} />
+                <Route path="/trade-bigger-with-less-capital" component={Leverage1000Promotion} />
+
 
                 <Route
                     path="/deposite-withdraw"

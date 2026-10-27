@@ -11,7 +11,7 @@ const UmrahpackagePromotion = () => {
                     <div className='col-md-12'>
                         <h4 className='text-bold atitle text-center pb-2' style={{ color: '#9b005f' }}>Umrah Package Promotion </h4>
                         <h5 className='text-bold title text-center mt-2' >Embark on a Spritual Pilgrimage to Holy Ka'abah!</h5>
-                        <p className=' text-center mt-2'>Are you ready to turn your trading success into an opulent getaway? Cabana Capitals is thrilled to introduce the "Dubai Luxury Trip Promotion," a unique opportunity designed to combine financial achievements with an extravagant travel experience.</p>
+                        <p className=' text-center mt-2'>Are you ready to turn your trading success into an opulent getaway? Aurum Markets is thrilled to introduce the "Dubai Luxury Trip Promotion," a unique opportunity designed to combine financial achievements with an extravagant travel experience.</p>
                         <div className='row mt-5 text-center'>
                             <h4 className='text-bold atitle text-center pb-2 col-md-12' style={{ color: '#9b005f' }}>What’s Included? </h4>
                             <div className='col-md-3 text-center'>
@@ -77,7 +77,7 @@ const UmrahpackagePromotion = () => {
 
 
             <div className='text-center mt-5'>
-                <h1 className='text-bold atitle  text-center' style={{ color: '#9b005f' }}><span className='text-dark'>Why Trade with </span>Cabana Capitals?</h1>
+                <h1 className='text-bold atitle  text-center' style={{ color: '#9b005f' }}><span className='text-dark'>Why Trade with </span>Aurum Markets?</h1>
 
                 <img style={{ width: '100%' }} src='/assets/images/umrahpromotion/Footer.jpg'></img>
             </div>
@@ -91,8 +91,8 @@ const UmrahpackagePromotion = () => {
                         <ul>
                             <li><strong>Eligibility:</strong>
                                 <ul>
-                                    <li>The Promotion is open to all clients of Cabana Capitals who meet the following criteria:</li>
-                                    <li>The client has a live trading account with Cabana Capitals.</li>
+                                    <li>The Promotion is open to all clients of Aurum Markets who meet the following criteria:</li>
+                                    <li>The client has a live trading account with Aurum Markets.</li>
                                     <li>The client has completed the necessary identity verification and account validation procedures.</li>
                                     <li>The client is in compliance with all applicable laws and regulations governing forex trading.</li>
                                 </ul>
@@ -129,14 +129,14 @@ const UmrahpackagePromotion = () => {
 
                             <li><strong>Notification and Redemption:</strong>
                                 <ul>
-                                    <li>Participants who meet the minimum deposit and trading volume requirements will be notified by Cabana Capitals via email within 15 business days after the end of the Promotion Period.</li>
+                                    <li>Participants who meet the minimum deposit and trading volume requirements will be notified by Aurum Markets via email within 15 business days after the end of the Promotion Period.</li>
                                     <li>To redeem the Umrah Package, Participants must follow the instructions provided in the notification email, including the submission of any required documentation.</li>
                                 </ul>
                             </li>
 
                             <li><strong>General Terms:</strong>
                                 <ul>
-                                    <li>Cabana Capitals reserves the right to:
+                                    <li>Aurum Markets reserves the right to:
                                         <ul>
                                             <li>Modify or cancel the Promotion at any time without prior notice.</li>
                                             <li>Disqualify any Participant who violates these Terms or engages in fraudulent or unethical trading practices.</li>
@@ -145,8 +145,8 @@ const UmrahpackagePromotion = () => {
 
                                     <li><strong>Prohibited Activities:</strong>
                                         <ul>
-                                            <li>Hedging trading positions internally (using other trading accounts held with Cabana Capitals) or externally (using other trading accounts held with other brokers) to avoid market risk is strictly prohibited.</li>
-                                            <li>Any form of arbitrage, abuse, fraud, manipulation, cashback arbitrage, or deceitful or fraudulent activity will result in the nullification of the Promotion and the real trading accounts associated with Cabana Capitals, along with any transactions or profits gained therein.</li>
+                                            <li>Hedging trading positions internally (using other trading accounts held with Aurum Markets) or externally (using other trading accounts held with other brokers) to avoid market risk is strictly prohibited.</li>
+                                            <li>Any form of arbitrage, abuse, fraud, manipulation, cashback arbitrage, or deceitful or fraudulent activity will result in the nullification of the Promotion and the real trading accounts associated with Aurum Markets, along with any transactions or profits gained therein.</li>
                                             <li>Prohibited trading techniques, such as "arbitrage trading," "picking/sniping," the use of certain automated trading systems or "Expert Advisors," and abusive trading strategies aimed at riskless profit, are strictly forbidden. These activities include opening opposite orders at the same time or within 2 minutes of each order, opening opposite orders particularly during volatile market conditions, news announcements, opening gaps, or when the underlying instrument is suspended or restricted on a particular market, between the same or different trading accounts.</li>
                                         </ul>
                                     </li>
@@ -168,13 +168,13 @@ const UmrahpackagePromotion = () => {
 
                                     <li><strong>The Umrah Package is non-transferable and cannot be exchanged for cash or any other promotional offer.</strong></li>
                                     <li><strong>Participants are responsible for all taxes, fees, and other charges associated with the Umrah Package.</strong></li>
-                                    <li><strong>Cabana Capitals shall not be liable for any delay, suspension, or cancellation of the Promotion due to circumstances beyond its control, including, but not limited to, force majeure events.</strong></li>
+                                    <li><strong>Aurum Markets shall not be liable for any delay, suspension, or cancellation of the Promotion due to circumstances beyond its control, including, but not limited to, force majeure events.</strong></li>
                                 </ul>
                             </li>
 
                             <li><strong>Governing Law and Jurisdiction:</strong>
                                 <ul>
-                                    <li>These Terms and the Promotion shall be governed by and construed in accordance with the laws. Any disputes arising under or in connection with this Promotion shall be subject to the exclusive decision of Cabana Capitals.</li>
+                                    <li>These Terms and the Promotion shall be governed by and construed in accordance with the laws. Any disputes arising under or in connection with this Promotion shall be subject to the exclusive decision of Aurum Markets.</li>
                                 </ul>
                             </li>
 
@@ -191,22 +191,22 @@ const UmrahpackagePromotion = () => {
 
                             <li><strong>Disqualification and Decisions:</strong>
                                 <ul>
-                                    <li>Cabana Capitals reserves the right to disqualify any user suspected of misusing or abusing the fair rules of the Promotion. Any situation not described in these rules shall be subject to the Company's decision.</li>
+                                    <li>Aurum Markets reserves the right to disqualify any user suspected of misusing or abusing the fair rules of the Promotion. Any situation not described in these rules shall be subject to the Company's decision.</li>
                                     <li>If the Promotion is cancelled, it cannot be reinstated.</li>
                                 </ul>
                             </li>
 
                             <li><strong>Modification or Cancellation:</strong>
                                 <ul>
-                                    <li>Cabana Capitals reserves the right to change, update, or cancel this Promotion at any time without prior notification. Such changes may include, but are not limited to, modifying the eligibility criteria, rewards, duration, or any other aspect of the Promotion.</li>
-                                    <li>Any modifications or cancellations will be at the sole discretion of Cabana Capitals, and participants will not be entitled to any compensation or claim in such cases.</li>
+                                    <li>Aurum Markets reserves the right to change, update, or cancel this Promotion at any time without prior notification. Such changes may include, but are not limited to, modifying the eligibility criteria, rewards, duration, or any other aspect of the Promotion.</li>
+                                    <li>Any modifications or cancellations will be at the sole discretion of Aurum Markets, and participants will not be entitled to any compensation or claim in such cases.</li>
                                 </ul>
                             </li>
 
                             <li><strong>Use of Information:</strong>
                                 <ul>
-                                    <li>By participating in the Promotion, you acknowledge and agree that the information provided during the registration process may be used by Cabana Capitals for marketing purposes.</li>
-                                    <li>By participating in the Umrah Package Promotion, Participants acknowledge that they have read, understood, and agreed to these Terms and Conditions. It is your responsibility to review these Terms and any updates or changes made by Cabana Capitals. Failure to adhere to these Terms may result in disqualification from the Promotion and the forfeiture of any rewards or benefits associated with it.</li>
+                                    <li>By participating in the Promotion, you acknowledge and agree that the information provided during the registration process may be used by Aurum Markets for marketing purposes.</li>
+                                    <li>By participating in the Umrah Package Promotion, Participants acknowledge that they have read, understood, and agreed to these Terms and Conditions. It is your responsibility to review these Terms and any updates or changes made by Aurum Markets. Failure to adhere to these Terms may result in disqualification from the Promotion and the forfeiture of any rewards or benefits associated with it.</li>
                                 </ul>
                             </li>
 

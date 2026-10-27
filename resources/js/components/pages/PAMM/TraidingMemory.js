@@ -6,9 +6,9 @@ class TraidingMemory extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            data:{
-                equity:0,
-                managerCapital:0,
+            data: {
+                equity: 0,
+                managerCapital: 0,
                 historyPerformances: {
                     "0": 0,
                     "1": 460.3904079999993,
@@ -43,11 +43,11 @@ class TraidingMemory extends Component {
         };
     }
 
-    componentDidMount(){
-        Axios.post('/api/get_pamm_account_detail/'+this.props.match.params.id).then(res=>{
+    componentDidMount() {
+        Axios.post('/api/get_pamm_account_detail/' + this.props.match.params.id).then(res => {
             console.log(res);
             this.setState({
-                data:res.data
+                data: res.data
             })
         })
     }
@@ -58,29 +58,29 @@ class TraidingMemory extends Component {
                 <div className="container mt-5 mb-5">
                     <div className="card stats_card p-4">
                         <div className="row ">
-                            <img className="person_img" src="/assets/images/person.png"/>
+                            <img className="person_img" src="/assets/images/person.png" />
                             <h4 className="nickname">{this.state.data.nickname}</h4>
                             <div className="row ml-auto mr-auto">
-                            <div className="text-center">
-                                <h4 className="stats_pamm">{this.state.data.performance}</h4>
-                                <p className="stats_label">Performance</p>
-                            </div>
-                            <div className="text-center stats_left_border">
-                                <h4 className="stats_pamm">{this.state.data.daysOpened}</h4>
-                                <p className="stats_label">Days Open</p>
-                            </div>
-                            <div className="text-center stats_left_border">
-                                <h4 className="stats_pamm">{this.state.data.numberOfInvestors}</h4>
-                                <p className="stats_label">Followers</p>
-                            </div>
-                            <div className="text-center stats_left_border">
-                                <h4 className="stats_pamm">{this.state.data.equity.toFixed(2)}</h4>
-                                <p className="stats_label">Equity</p>
-                            </div>
+                                <div className="text-center">
+                                    <h4 className="stats_pamm">{this.state.data.performance}</h4>
+                                    <p className="stats_label">Performance</p>
+                                </div>
+                                <div className="text-center stats_left_border">
+                                    <h4 className="stats_pamm">{this.state.data.daysOpened}</h4>
+                                    <p className="stats_label">Days Open</p>
+                                </div>
+                                <div className="text-center stats_left_border">
+                                    <h4 className="stats_pamm">{this.state.data.numberOfInvestors}</h4>
+                                    <p className="stats_label">Followers</p>
+                                </div>
+                                <div className="text-center stats_left_border">
+                                    <h4 className="stats_pamm">{this.state.data.equity.toFixed(2)}</h4>
+                                    <p className="stats_label">Equity</p>
+                                </div>
                             </div>
                             <div className="text-center px-2 mt-2 ">
-                            {/* <td><button onClick={()=>{window.open('/trading-memory/'+data.id,'_self')}} className="btn depositeOutlineButton ">Invest </button></td> */}
-                            <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositButton rounded" style={{padding:"8px 60px",fontSize:'24px'}} >Invest</button>
+                                {/* <td><button onClick={()=>{window.open('/trading-memory/'+data.id,'_self')}} className="btn depositeOutlineButton ">Invest </button></td> */}
+                                <button onClick={() => { window.open('https://portal.aurummarkets.com/login/', '_self') }} className="depositButton rounded" style={{ padding: "8px 60px", fontSize: '24px' }} >Invest</button>
 
                             </div>
                         </div>
@@ -88,7 +88,7 @@ class TraidingMemory extends Component {
                     <div className="row mt-4">
                         <div className="col-md-5 mt-2">
                             <div className="card p-2 stats_card">
-                            <h2>Return %</h2>
+                                <h2>Return %</h2>
                                 <table className="table table-hover ">
                                     <tbody>
                                         <tr className="stats_table_tr"><td >Today</td><td className="stats_figure"  >{this.state.data.historyPerformances[0].toFixed(2)}</td></tr>
@@ -102,8 +102,8 @@ class TraidingMemory extends Component {
                                     </tbody>
                                 </table>
                             </div>
-                            <div className="card p-2 stats_card  " style={{marginTop:'35px'}}>
-                            <h2>Settings</h2>
+                            <div className="card p-2 stats_card  " style={{ marginTop: '35px' }}>
+                                <h2>Settings</h2>
                                 <table className="table table-hover ">
                                     <tbody>
                                         <tr className="stats_table_tr"><td >Leverage</td><td className="stats_figure"  >1:500</td></tr>
@@ -130,7 +130,7 @@ class TraidingMemory extends Component {
                                         <tr className="stats_table_tr"><td >Expected Payoff	</td><td className="stats_figure"  >+{this.state.data.riskData.payoff.toFixed(2)}</td></tr>
                                         <tr className="stats_table_tr"><td >Profit Trades (% Of Total)	</td><td className="stats_figure"  >+{this.state.data.riskData.profitTrades.toFixed(2)}</td></tr>
                                         <tr className="stats_table_tr"><td >Loss Trades Trades (% Of Total)	</td><td className="stats_figure"  >+{this.state.data.riskData.lossTrades.toFixed(2)}</td></tr>
-                                        <tr className="stats_table_tr"><td >Average Profit Trade	</td><td className="stats_figure"  >+{parseFloat(this.state.data.riskData.avgProfit) .toFixed(2)}</td></tr>
+                                        <tr className="stats_table_tr"><td >Average Profit Trade	</td><td className="stats_figure"  >+{parseFloat(this.state.data.riskData.avgProfit).toFixed(2)}</td></tr>
                                         <tr className="stats_table_tr"><td >Average Loss Trade	</td><td className="stats_figure text-danger"  >{parseFloat(this.state.data.riskData.avgLoss).toFixed(2)}</td></tr>
                                     </tbody>
                                 </table>
@@ -140,12 +140,12 @@ class TraidingMemory extends Component {
                     <div className="text-center px-2 mt-5 ">
                         <div className="row ml-auto mr-auto">
                             <h1 className="col-md-4"></h1>
-                            <button onClick={()=>{window.open('/pamm','_self')}} className="btn depositeOutlineButton ml-2  mt-2" style={{padding:"8px 60px",fontSize:'24px'}}>Back To Ranking </button>
-                            <button onClick={()=>{ window.open('https://secure.cabanacapitals.com/login/','_self')}} className="depositButton ml-2 mt-2 rounded" style={{padding:"8px 60px",fontSize:'24px'}} >Invest</button>
+                            <button onClick={() => { window.open('/pamm', '_self') }} className="btn depositeOutlineButton ml-2  mt-2" style={{ padding: "8px 60px", fontSize: '24px' }}>Back To Ranking </button>
+                            <button onClick={() => { window.open('https://portal.aurummarkets.com/login/', '_self') }} className="depositButton ml-2 mt-2 rounded" style={{ padding: "8px 60px", fontSize: '24px' }} >Invest</button>
 
                         </div>
 
-                            </div>
+                    </div>
                 </div>
             </div>
         );

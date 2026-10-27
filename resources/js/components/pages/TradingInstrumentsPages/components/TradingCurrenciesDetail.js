@@ -80,7 +80,7 @@ export default function TradingCurrenciesDetail() {
               <p className="aboutDetailText">
                 Exotic currency pairs are not as widely traded as the majors or
                 the minors. They are composed of a major currency pair coupled with
-                the currency of a developing economy. Some examples that Cabana
+                the currency of a developing economy. Some examples that Aurum Markets
                 Capitals offers include the USD/TRY and the EUR/PLN
               </p>
             </div>

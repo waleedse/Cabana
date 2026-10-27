@@ -5,14 +5,14 @@ const UltimateBonus = () => {
         <div>
             <div className="newPromoBg" style={{ backgroundImage: "url('/assets/images/lootbanner.jpg')", height: '700px' }}>
                 <div>
-                <div className='title'><span className='titleLg'> WIN</span><br></br>
+                    <div className='title'><span className='titleLg'> WIN</span><br></br>
                         EXCLUSIVE GIFTS FOR TRADING
                     </div>
                     <div style={{ fontSize: '22px' }} className='title title2'>
 
-                        Trade with Cabana Capitals now & get a chance to
+                        Trade with Aurum Markets now & get a chance to
                         win maximum prizes</div>
-                    {/* <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button> */}
+                    {/* <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button> */}
                     {/* <a href="/bonus-terms"> <div className='text'>*Terms and conditions apply</div></a> */}
                 </div>
             </div>
@@ -50,19 +50,19 @@ const UltimateBonus = () => {
                 <div className='container  mb-5'>
                     <div className='text-light text-center'>
                         <h1 className='title titlelg text-bold '>
-                        How prize lots are calculated
+                            How prize lots are calculated
 
                         </h1>
                         <br></br>
                         <h4>
-                          <span className='titlelg title'> 1</span>
-                          Traded lot
-                          =
-                          <span className='titlelg title'> 1</span>
-                          Prize lot
+                            <span className='titlelg title'> 1</span>
+                            Traded lot
+                            =
+                            <span className='titlelg title'> 1</span>
+                            Prize lot
                         </h4> <br></br>
                         <h6>
-                        * Prize lots are calculated for closed orders only
+                            * Prize lots are calculated for closed orders only
                         </h6> <br></br>
 
                     </div>
@@ -72,17 +72,17 @@ const UltimateBonus = () => {
                 <div className='container  mb-5'>
                     <div className='text-light text-center'>
                         <h1 className='title titlelg text-bold '>
-                        The more you Trade, the more chances to win exclusive prizes
+                            The more you Trade, the more chances to win exclusive prizes
 
                         </h1>
                         <br></br>
                         <h4>
-                        Offering premium prizes for every trader at Cabana Capitals.
+                            Offering premium prizes for every trader at Aurum Markets.
                         </h4> <br></br>
                         <br></br>
-                    <br></br>
+                        <br></br>
                         <div className='text-center mt-3'>
-                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://secure.cabanacapitals.com/register/', '_self') }}>Get Started</button>
+                            <button className='btn  btn-danger btn-lg rounded mt-3' style={{ backgroundColor: '#A2237E' }} onClick={() => { window.open('https://portal.aurummarkets.com/register/', '_self') }}>Get Started</button>
                         </div>
                     </div>
                 </div>

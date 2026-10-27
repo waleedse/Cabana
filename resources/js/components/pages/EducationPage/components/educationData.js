@@ -158,7 +158,7 @@ export const eduQuestionData2 = [
     ans:
       "We hope you enjoyed this guide on how to use MetaTrader 4. Of course, the best way to get these tips and techniques to really sink in is to go ahead and try them out for yourself using MetaTrader 4. If you’re wondering how to play around with MetaTrader 4 without risking any money, the best way is with a demo trading account. ",
     ans2:
-      "Every demo trade is completely risk-free, making it a perfect way to experiment with trading on the platform and to understand how MetaTrader 4 works. Once you have built up your confidence up through demo trades, and are ready to trade for real, you will need a live trading account and for that cabana capitals is there for you. so what are you waiting for start trading with us today.",
+      "Every demo trade is completely risk-free, making it a perfect way to experiment with trading on the platform and to understand how MetaTrader 4 works. Once you have built up your confidence up through demo trades, and are ready to trade for real, you will need a live trading account and for that Aurum markets is there for you. so what are you waiting for start trading with us today.",
   },
   {
     qes: "",

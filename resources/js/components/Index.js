@@ -33,7 +33,9 @@ class Index extends Component {
                 '/loot-bonus', '/ultimate-bonus', '/booster-bonus-malaysia', '/booster-bonus-india', '/cashback-bonus', '/booster-bonus-thirtyfive-percent',
                 '/thirtyfive-percent-bonus', '/dubai-luxury-promotion-india', '/thailand-welcome-bonus-promotion',
                 '/additional-usdt-deposit-promotion', '/umrah-package-promotion', '/dubai-luxury-promotion', '/autochartist',
-                '/financial-fitness', '/ib-rewards-promotion', '/unlimited-cashback-promotion'
+                '/financial-fitness', '/twenty-five-thousand-bonus-promotion', '/signup-bonus-promotion',
+                '/prize-lot-promotion', '/ib-reward-promotion', '/unlimited-cashback-promotion', '/forty-percent-bonus',
+                '/cents-account-promotion', '/cashback-reward-promotion', '/aurum-ib-reward-promotion', '/global-ib-promotion-2025', '/crypto-deposit-bonus-2025', '/trade-bigger-with-less-capital'
             ]
         }
     }

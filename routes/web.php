@@ -30,9 +30,10 @@ Route::get('/adminpanel/edit-promotion/{id}', function () {
 Route::get('/adminpanel/add-slider', function () {return view('welcome');});
 Route::get('/adminpanel/edit-slider/{id}', function () {return view('welcome');});
 Route::get('/adminpanel/manage-sliders', function () {return view('welcome');});
-
-Route::view('/', 'home')->middleware('region');
-
-    Route::view('/{path?}', 'welcome')->middleware('region');
-    Route::view('{reactRoutes}', 'welcome')->middleware('region');
-
+Route::get('/', function () {
+    return view('home');
+})->middleware('region');
+Route::view('/{path?}', 'welcome')->middleware('region');
+Route::get('{reactRoutes}', function () {
+    return view('welcome');
+})->middleware('region');

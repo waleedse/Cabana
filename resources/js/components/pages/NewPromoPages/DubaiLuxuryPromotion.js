@@ -10,8 +10,8 @@ const DubaiLuxuryPromotion = () => {
                 <div className='row mt-3'>
                     <div className='col-md-12'>
                         <h4 className='text-bold atitle text-center pb-2' style={{ color: '#9b005f' }}>Dubai Luxury Trip Promotion </h4>
-                        <h5 className='text-bold title text-center mt-2' >Start Your Journey of Luxury with Cabana Capitals Today!</h5>
-                        <p className=' text-center mt-2'>Are you ready to turn your trading success into an opulent getaway? Cabana Capitals is thrilled to introduce the "Dubai Luxury Trip Promotion," a unique opportunity designed to combine financial achievements with an extravagant travel experience.</p>
+                        <h5 className='text-bold title text-center mt-2' >Start Your Journey of Luxury with Aurum Markets Today!</h5>
+                        <p className=' text-center mt-2'>Are you ready to turn your trading success into an opulent getaway? Aurum Markets is thrilled to introduce the "Dubai Luxury Trip Promotion," a unique opportunity designed to combine financial achievements with an extravagant travel experience.</p>
                         <div className='row mt-5 text-center'>
                             <h4 className='text-bold atitle text-center pb-2 col-md-12' style={{ color: '#9b005f' }}>What’s Included? </h4>
                             <div className='col-md-3 text-center'>
@@ -96,7 +96,7 @@ const DubaiLuxuryPromotion = () => {
 
 
             <div className='text-center mt-5'>
-                <h1 className='text-bold atitle  text-center' style={{ color: '#9b005f' }}><span className='text-dark'>Why Trade with </span>Cabana Capitals?</h1>
+                <h1 className='text-bold atitle  text-center' style={{ color: '#9b005f' }}><span className='text-dark'>Why Trade with </span>Aurum Markets?</h1>
 
                 <img style={{ width: '100%' }} src='/assets/images/dubaipromotion/Footer.jpg'></img>
             </div>
@@ -113,9 +113,9 @@ const DubaiLuxuryPromotion = () => {
 
                             <li> <strong>	Eligibility </strong></li>
                             <ul>
-                                <li> The Dubai Luxury Trip Promotion (hereinaWer referred to as the "Promotion") is open to all clients of Cabana Capitals.</li>
+                                <li> The Dubai Luxury Trip Promotion (hereinaWer referred to as the "Promotion") is open to all clients of Aurum Markets.</li>
 
-                                <li>	Participants must hold an active trading account with Cabana Capitals.</li>
+                                <li>	Participants must hold an active trading account with Aurum Markets.</li>
 
                                 <li>	Clients must have completed the necessary identity veriﬁcation and account validation procedures.</li>
 
@@ -123,7 +123,7 @@ const DubaiLuxuryPromotion = () => {
                             </ul>
                             <li><strong>	Qualiﬁcation Requirement </strong></li>
                             <ul>
-                                <li>	To qualify for the Dubai Luxury Trip Promotion, Participants are required to deposit a minimum amount of $5,000 into their Cabana Capitals trading account during the Promotion Period.</li>
+                                <li>	To qualify for the Dubai Luxury Trip Promotion, Participants are required to deposit a minimum amount of $5,000 into their Aurum Markets trading account during the Promotion Period.</li>
 
                                 <li>	In addition to the minimum deposit requirement, Participants must also achieve a minimum trading volume of 500 qualiﬁed standard lots (minimum diﬀerence between open and close should not be less than 2 minutes) during the Promotion Period to become eligible for the Dubai Luxury Trip.</li>
 
@@ -154,7 +154,7 @@ const DubaiLuxuryPromotion = () => {
                                 </li></ul>
                             <li>	<strong>Notiﬁcation and Redemption </strong></li>
                             <ul>
-                                <li>	Participants who meet the minimum deposit and trading volume requirements will receive notiﬁcation from Cabana Capitals via email within 15 business days aWer the end of the Promotion Period.
+                                <li>	Participants who meet the minimum deposit and trading volume requirements will receive notiﬁcation from Aurum Markets via email within 15 business days aWer the end of the Promotion Period.
 
                                 </li><li>	To redeem the Dubai Luxury Trip, Participants must adhere to the instructions provided in the notiﬁcation email, including the submission of any required documentation.
                                 </li></ul>
@@ -170,7 +170,7 @@ const DubaiLuxuryPromotion = () => {
                                     </li></ul>
                                 <li>	Consequences of Prohibited Activities</li>
                                 <ul>
-                                    If Cabana Capitals determines that a client has engaged in prohibited activities, it may take various actions at its sole discretion, including but may not limited to:
+                                    If Aurum Markets determines that a client has engaged in prohibited activities, it may take various actions at its sole discretion, including but may not limited to:
 
                                     <li>	Closing the Client’s account.</li>
                                     <li>	Suspend the Client’s account indeﬁnitely.</li>
@@ -184,11 +184,11 @@ const DubaiLuxuryPromotion = () => {
                                 <li>	Participants are responsible for all taxes, fees, and other charges associated with the Dubai Luxury Trip.
 
 
-                                </li><li>	Cabana Capitals shall not be liable for any delay, suspension, or cancellation of the Promotion due to circumstances beyond its control.
+                                </li><li>	Aurum Markets shall not be liable for any delay, suspension, or cancellation of the Promotion due to circumstances beyond its control.
                                 </li></ul>
                             <li>	<strong>Governing Law and Jurisdiction </strong> </li>
                             <ul>
-                                <li>These Terms and the Promotion shall be governed by and construed in accordance with the applicable laws. Any disputes arising under or in connection with this Promotion shall be subject to the exclusive decision of Cabana Capitals.
+                                <li>These Terms and the Promotion shall be governed by and construed in accordance with the applicable laws. Any disputes arising under or in connection with this Promotion shall be subject to the exclusive decision of Aurum Markets.
                                 </li>
                             </ul>
                             <li> <strong>	Withdrawal </strong>
@@ -202,24 +202,24 @@ const DubaiLuxuryPromotion = () => {
 
                             <li> <strong>	Disqualiﬁcation and Decisions </strong></li>
                             <ul>
-                                <li>	Cabana Capitals reserves the right to disqualify any user suspected of misusing or abusing the Promotion's rules.</li>
+                                <li>	Aurum Markets reserves the right to disqualify any user suspected of misusing or abusing the Promotion's rules.</li>
 
                                 <li>	If the Promotion is cancelled, it cannot be reinstated.</li>
                             </ul>
 
                             <li> <strong>	Modiﬁcation or Cancellation </strong></li>
                             <ul>
-                                <li>	Cabana Capitals reserves the right to change, update, or cancel this Promotion at any time without prior notiﬁcation. Such changes may include modiﬁcations to eligibility criteria, rewards, duration, or any other aspect of the Promotion.</li>
+                                <li>	Aurum Markets reserves the right to change, update, or cancel this Promotion at any time without prior notiﬁcation. Such changes may include modiﬁcations to eligibility criteria, rewards, duration, or any other aspect of the Promotion.</li>
 
-                                <li>	Any modiﬁcations or cancellations will be at the sole discretion of Cabana Capitals, and participants will not be entitled to any compensation or claim in such cases.</li>
+                                <li>	Any modiﬁcations or cancellations will be at the sole discretion of Aurum Markets, and participants will not be entitled to any compensation or claim in such cases.</li>
 
                             </ul>
 
                             <li> <strong>	Use of Information </strong> </li>
                             <ul>
-                                <li>	By participating in the Promotion, you acknowledge and agree that the information provided during the registration process may be used by Cabana Capitals for marketing purposes. </li>
+                                <li>	By participating in the Promotion, you acknowledge and agree that the information provided during the registration process may be used by Aurum Markets for marketing purposes. </li>
 
-                                <li>	By participating in the Dubai Luxury Trip Promotion, Participants acknowledge that they have read, understood, and agreed to these Dubai Luxury Trip Terms and Conditions. It is your responsibility to review these Terms and any updates or changes made by Cabana Capitals. Failure to adhere to these Terms may result in disqualiﬁcation from the Promotion and the forfeiture of any rewards or beneﬁts associated with it. </li>
+                                <li>	By participating in the Dubai Luxury Trip Promotion, Participants acknowledge that they have read, understood, and agreed to these Dubai Luxury Trip Terms and Conditions. It is your responsibility to review these Terms and any updates or changes made by Aurum Markets. Failure to adhere to these Terms may result in disqualiﬁcation from the Promotion and the forfeiture of any rewards or beneﬁts associated with it. </li>
                             </ul>
                         </ul>
                     </div>
